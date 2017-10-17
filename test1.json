@@ -1,0 +1,536 @@
+{
+      "meta": {
+       "author": "system",
+       "quizid": "TAVRUPE",
+       "userid": "amar",
+       "duration":"30",
+       "beginTime": "03-07-2016 00:00:00",
+       "endTime": "09-07-2016 11:59:00",
+       "exitAllowed": false
+   },
+   "attempted": false,
+   "quizdata": {
+   "quiztitle": "loL",
+   "instruction": "LOL",
+   "elements": [
+      
+       {
+           "type": "mcq",
+           "ref": "000dy",
+           "object": {
+               "question": "Refer figure C3-05. \n\n<figure align=\"left\" style=\"margin-left:5px;margin-right:15px;\"><img id=\"imageLoad\" folder=\"g0007\" file=\"C3-05.svg\" src=\"../../uploads/C3-05.svg\" alt=\"error: check folder and file names\" style=\"width:100%;min-width:100px;background-color:rgb(250,250,250);padding:7px;border-radius:7px;\"><figcaption style=\"font-family:Arial;font-size:11px;\">Reference image</figcaption></figure>\n\nA cannon gun fires initially at rest on a horizontal frictionless surface  launches a cannon with an initial muzzle velocity \n<math><mrow><msub><mi>v</mi><mn>0</mn></msub><mo>=</mo><mn>30</mn></mrow></math>\n \n<math><mrow><mi>m</mi><mo>/</mo><mi>s</mi></mrow></math>\nat an angle \n<math><mrow><mi>&#952;</mi><mo>=</mo><mfrac><mi>&#960;</mi><mn>6</mn></mfrac></mrow></math>\n \n<math><mi>radians</mi></math>\n. Mass of the gun is \n<math><mrow><mi>M</mi><mo>=</mo><mn>100</mn></mrow></math>\n \n<math><mi>kg</mi></math>\n and mass of cannon is \n<math><mrow><mi>m</mi><mo>=</mo><mn>24</mn></mrow></math>\n \n<math><mi>kg</mi></math>\n.  The recoil velocity of the gun as observed by ground observer is ?\n",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "<math><mrow><mn>4</mn><mtext>&#8202;</mtext><mover><mtext>i</mtext><mo>^</mo></mover></mrow></math>\n \n<math><mrow><mi>m</mi><mo>/</mo><mi>s</mi></mrow></math>"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "<math><mrow><mn>4</mn><mtext>&#8202;</mtext><mover><mtext>i</mtext><mo>^</mo></mover></mrow></math>\n \n<math><mrow><mi>m</mi><mo>/</mo><mi>s</mi></mrow></math>"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "<math><mrow><mn>4</mn><mtext>&#8202;</mtext><mover><mtext>i</mtext><mo>^</mo></mover></mrow></math>\n \n<math><mrow><mi>m</mi><mo>/</mo><mi>s</mi></mrow></math>"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "<math><mrow><mn>4</mn><mtext>&#8202;</mtext><mover><mtext>i</mtext><mo>^</mo></mover></mrow></math>\n \n<math><mrow><mi>m</mi><mo>/</mo><mi>s</mi></mrow></math>"
+                   }
+               ],
+               "hint": "We have and the normal force of the base act on the system (gun with cannon). Both these forces are vertical. The y-component of the vector equation: \n<p align='center'><math><mrow><mfrac><mrow><mi>d</mi><mo>&#8290;</mo><msub><mi>P</mi><mi>y</mi></msub></mrow><mrow><mi>d</mi><mo>&#8290;</mo><mi>t</mi></mrow></mfrac><mo>=</mo><mn>0</mn></mrow></math></p>\n\nFor the horizontal case:\n\n<p align='center'><math><mrow><msub><mi>P</mi><mrow><mi>x</mi><mtext>,</mtext><mi>initial</mi></mrow></msub><mo>=</mo><msub><mi>P</mi><mrow><mi>x</mi><mtext>,</mtext><mi>final</mi></mrow></msub></mrow></math></p>\n\n",
+               "explanation": "We have and the normal force of the base act on the system (gun with cannon). Both these forces are vertical. The y-component of the vector equation: \n<p align='center'><math><mrow><mfrac><mrow><mi>d</mi><mo>&#8290;</mo><msub><mi>P</mi><mi>y</mi></msub></mrow><mrow><mi>d</mi><mo>&#8290;</mo><mi>t</mi></mrow></mfrac><mo>=</mo><mn>0</mn></mrow></math></p>\n\nFor the horizontal case:\n\n<p align='center'><math><mrow><msub><mi>P</mi><mrow><mi>x</mi><mtext>,</mtext><mi>initial</mi></mrow></msub><mo>=</mo><msub><mi>P</mi><mrow><mi>x</mi><mtext>,</mtext><mi>final</mi></mrow></msub></mrow></math></p>\n\nWe have \n<math><mrow><msub><mi>P</mi><mrow><mi>x</mi><mtext>,</mtext><mi>initial</mi></mrow></msub><mo>=</mo><mn>0</mn></mrow></math>\n.  After the cannon has left the muzzle, the gun recoils with some speed \n<math><msub><mi>v</mi><mi>f</mi></msub></math>\n, and its final horizontal momentum is \n<math><mrow><mi>M</mi><mo>&#8290;</mo><msub><mi>v</mi><mi>f</mi></msub></mrow></math>\n to the left. The cannon&#39;s acceleration is due to the force of the gun, and the gun&#39;s recoil is due to the reaction force of the cannon. The gun stops accelerating once the cannon leaves the barrel and has its final speed \n<math><msub><mi>v</mi><mi>f</mi></msub></math>\n.  At that same instant the speed of the cannon relative to the gun is \n<math><msub><mi>v</mi><mn>0</mn></msub></math>\n (also called \n<math><mrow><mstyle mathvariant=\"bold\"><mtext>muzzle velocity</mtext></mstyle></mrow></math>\n). Hence, the final horizontal speed of the cannon relative to the ground is \n<p align='center'><math><mrow><msub><mi>v</mi><mn>0</mn></msub><mo>&#8290;</mo><mrow><mi>cos</mi><mo>&#8289;</mo><mo>(</mo><mi>&#952;</mi><mo>)</mo></mrow><mo>&#8290;</mo><mi>&#8212;</mi><mo>&#8290;</mo><msub><mi>v</mi><mi>f</mi></msub></mrow></math></p>\n\nSo, we have:\n\n<p align='center'><math><mrow><msub><mi>P</mi><mrow><mi>x</mi><mtext>,</mtext><mi>final</mi></mrow></msub><mo>=</mo><mrow><mrow><mi>m</mi><mo>&#8290;</mo><mrow><mo>(</mo><mrow><msub><mi>v</mi><mn>0</mn></msub><mo>&#8290;</mo><mrow><mi>cos</mi><mo>&#8289;</mo><mo>(</mo><mi>&#952;</mi><mo>)</mo></mrow><mo>&#8290;</mo><mi>&#8212;</mi><mo>&#8290;</mo><msub><mi>v</mi><mi>f</mi></msub></mrow><mo>)</mo></mrow></mrow><mo>-</mo><mrow><mi>M</mi><mo>&#8290;</mo><msub><mi>v</mi><mi>f</mi></msub></mrow></mrow></mrow></math></p>"
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000dh",
+           "object": {
+               "question": "Refer to figure C2-04 and C2-05.\\[\\]\n\n<figure align=\"left\" style=\"margin-left:5px;margin-right:15px;\"><img id=\"imageLoad\" folder=\"g0007\" file=\"C2--04.svg\" src=\"../../uploads/C2--04.svg\" alt=\"error: check folder and file names\" style=\"width:100%;min-width:100px;background-color:rgb(250,250,250);padding:7px;border-radius:7px;\"><figcaption style=\"font-family:Arial;font-size:11px;\">Reference image-1</figcaption></figure>\n \\[\\]\n\n<figure align=\"left\" style=\"margin-left:5px;margin-right:15px;\"><img id=\"imageLoad\" folder=\"g0007\" file=\"C2-05.svg\" src=\"../../uploads/C2-05.svg\" alt=\"error: check folder and file names\" style=\"width:100%;min-width:100px;background-color:rgb(250,250,250);padding:7px;border-radius:7px;\"><figcaption style=\"font-family:Arial;font-size:11px;\">Graphs</figcaption></figure>\n\nA ball of mass \n<math><mi>M</mi></math>\n grams is rotating in a conical path with help of a massless string of length \n<math><mi>l</mi></math>\n cm and with angular velocity \n<math><mi>&#969;</mi></math>\n rad/s.  Angle between vertical and length of string is maintained at \n<math><mi>&#945;</mi></math>\n radians. The correct graph for \n<math><mrow><mi>cos</mi><mo>&#8289;</mo><mo>(</mo><mi>&#945;</mi><mo>)</mo></mrow></math>\n versus \n<math><mi>&#969;</mi></math>\n is approximately given by:",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "Graph 1"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "Graph 4"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "Graph 2"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "Graph 3"
+                   }
+               ],
+               "hint": "Equate forces along vertical and horizontal to get expression of \n<math><mi>&#969;</mi></math>\n dependent on \n<math><mi>&#945;</mi></math>\n. From general intuition, we can say that a bob attached to a string pivoted at one end when rotates, an increasing speed of rotation increases value of \n<math><mi>&#945;</mi></math>\n. ",
+               "explanation": "Solving using free body diagram, we can get:\n\n<p align='center'><math><mrow><mrow><mi>T</mi><mo>&#8290;</mo><mrow><mi>cos</mi><mo>&#8289;</mo><mo>(</mo><mi>&#945;</mi><mo>)</mo></mrow></mrow><mo>=</mo><mrow><mi>m</mi><mo>&#8290;</mo><mi>g</mi></mrow></mrow></math></p>\n\n\n<p align='center'><math><mrow><mrow><mi>T</mi><mo>&#8290;</mo><mrow><mi>sin</mi><mo>&#8289;</mo><mo>(</mo><mi>&#945;</mi><mo>)</mo></mrow></mrow><mo>=</mo><mrow><mi>m</mi><mo>&#8290;</mo><msup><mi>&#969;</mi><mn>2</mn></msup><mo>&#8290;</mo><mi>r</mi></mrow></mrow></math></p>\n\nDividing the equations, we get :\n<p align='center'><math><mrow><mrow><mi>tan</mi><mo>&#8289;</mo><mo>(</mo><mi>&#945;</mi><mo>)</mo></mrow><mo>=</mo><mfrac><mrow><msup><mi>&#969;</mi><mn>2</mn></msup><mo>&#8290;</mo><mi>r</mi></mrow><mi>g</mi></mfrac></mrow></math></p>\n  and \n<math><mrow><mi>r</mi><mo>=</mo><mrow><mi>l</mi><mo>&#8290;</mo><mrow><mi>sin</mi><mo>&#8289;</mo><mo>(</mo><mi>&#945;</mi><mo>)</mo></mrow></mrow></mrow></math>\n. You can easily find the relationship now. "
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000d2",
+           "object": {
+               "question": "Refer figure C2-19. \n\n<figure align=\"left\" style=\"margin-left:5px;margin-right:15px;\"><img id=\"imageLoad\" folder=\"g0007\" file=\"C2-19.svg\" src=\"../../uploads/C2-19.svg\" alt=\"error: check folder and file names\" style=\"width:100%;min-width:100px;background-color:rgb(250,250,250);padding:7px;border-radius:7px;\"><figcaption style=\"font-family:Arial;font-size:11px;\">C2-19</figcaption></figure>\n\nA platform is moving with a constant acceleration \n<math><mrow><mi>a</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>&#8198;</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mi>m</mi><mo>/</mo><msup><mi>s</mi><mn>2</mn></msup></mrow></mrow></math>\n. A crate of mass \n<math><mrow><mi>m</mi><mo>=</mo><mrow><mn>5</mn><mo>&#8290;</mo><mi>kg</mi></mrow></mrow></math>\n is kept on the platform.  Coefficient of friction is \n<math><mrow><mi>&#956;</mi><mo>=</mo><mn>0.4</mn></mrow></math>\n. The platform comes to a halt suddenly, in a fraction of a second. Which of the following statements are correct: \\[\\]\n\n<math><mrow><mstyle mathvariant=\"bold\"><mrow><mi>Statement</mi><mo>&#8290;</mo><mn>1</mn></mrow></mstyle></mrow></math>\n: The direction of frictional force on the crate when platform is accelerating is in \n<math><mover><mtext>i</mtext><mo>^</mo></mover></math>\n.\\[\\]\n\n<math><mrow><mstyle mathvariant=\"bold\"><mrow><mi>Statement</mi><mo>&#8290;</mo><mn>2</mn></mrow></mstyle></mrow></math>\n: Assuming the platform has a small length, the crate falls off at point A if acceleration of platform-crate system exceeds \n<math><mrow><mn>3.9</mn><mtext>&#8202;</mtext><mrow><mi>m</mi><mo>/</mo><msup><mi>s</mi><mn>2</mn></msup></mrow></mrow></math>\n\\[\\]\n\n<math><mrow><mstyle mathvariant=\"bold\"><mrow><mi>Statement</mi><mo>&#8290;</mo><mn>3</mn></mrow></mstyle></mrow></math>\n: Just before stopping, if the velocity of crate-mass system was \n<math><mrow><mi>v</mi><mo>=</mo><mrow><mn>4</mn><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mi>m</mi><mo>/</mo><mi>s</mi></mrow></mrow></mrow></math>\n and acceleration was of maximum value as calculated above, the average jerk on crate as it comes to rest is \n<math><mrow><mn>7.7</mn><mtext>&#8202;</mtext><mrow><mi>m</mi><mo>/</mo><msup><mi>s</mi><mn>3</mn></msup></mrow></mrow></math>\n. (Take \n<math><mi>g</mi></math>\n as \n<math><mrow><mn>9.8</mn><mtext>&#8202;</mtext><mrow><mi>m</mi><mo>/</mo><msup><mi>s</mi><mn>2</mn></msup></mrow></mrow></math>\n).",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "Statements 1 and 2 are correct"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "All statements are correct"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "Statements 2 and 3 are correct"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "Statements 1 and 3 are correct "
+                   }
+               ],
+               "hint": "Refer the figure. The forces acting on the crate are when the system is accelerating :\\[\\]\n- weight due to gravity in \n<math><mrow><mo>-</mo><mtext>&#8202;</mtext><mover><mi>j</mi><mo>^</mo></mover></mrow></math>\n direction\\[\\]\n- normal reaction in \n<math><mover><mi>j</mi><mo>^</mo></mover></math>\n direction \\[\\]\n- contact force due to friction between base of platform and crate in \n<math><mover><mi>i</mi><mo>^</mo></mover></math>\n direction\\[\\]\nIt is the frictional force that accelerates the crate along with platform. The maximum acceleration of crate is derived from maximum frictional force.",
+               "explanation": "Refer the figure. The forces acting on the crate are when the system is accelerating :\\[\\]\n- weight due to gravity in \n<math><mrow><mo>-</mo><mtext>&#8202;</mtext><mover><mi>j</mi><mo>^</mo></mover></mrow></math>\n direction\\[\\]\n- normal reaction in \n<math><mover><mi>j</mi><mo>^</mo></mover></math>\n direction \\[\\]\n- contact force due to friction between base of platform and crate in \n<math><mover><mi>i</mi><mo>^</mo></mover></math>\n direction\\[\\]\nIt is the frictional force that accelerates the crate along with platform. The maximum acceleration of crate is derived from maximum frictional force.\\[\\]\nWhen acceleration of platform -crate system exceeds the maximum acceleration that can be provided to crate by friction (= \n<math><mrow><mi>&#956;</mi><mo>&#8290;</mo><mi>g</mi></mrow></math>\n), the crate begins to move back relative to platform and hence fall down at point A. \\[\\]\n\nJerk is nothing but rate of change of acceleration. Assuming that the platform comes to halt suddenly (hence, with a deceleration more than &#39;the maximum acceleration value&#39; calculated in statement 2) , the crate gets a maximum deceleration value due to maximum friction. Velocity being given, we can find time using the following equation:\n\n<p align='center'><math><mrow><mn>0</mn><mo>=</mo><mrow><mi>v</mi><mo>-</mo><mrow><mi>&#956;</mi><mo>&#8290;</mo><mi>g</mi><mo>&#8290;</mo><mi>t</mi></mrow></mrow></mrow></math></p>"
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000cv",
+           "object": {
+               "question": "With regard to contact forces, which of the following statements are correct: \\[\\]\n\n<math><mrow><mstyle mathvariant=\"bold\"><mrow><mi>Statement</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mn>1</mn></mrow></mstyle></mrow></math>\n: Electromagnetic force is a type of physical interaction that occurs between electrically charged particles. The electromagnetic force usually shows electromagnetic fields, such as electric fields, magnetic fields, and light. Contact forces are short range electromagnetic forces. \\[\\]\n\n<math><mrow><mstyle mathvariant=\"bold\"><mrow><mi>Statement</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mn>2</mn></mrow></mstyle></mrow></math>\n: Refer the figure C2-06. \n\n<figure align=\"left\" style=\"margin-left:5px;margin-right:15px;\"><img id=\"imageLoad\" folder=\"g0007\" file=\"C2-06.svg\" src=\"../../uploads/C2-06.svg\" alt=\"error: check folder and file names\" style=\"width:100%;min-width:100px;background-color:rgb(250,250,250);padding:7px;border-radius:7px;\"><figcaption style=\"font-family:Arial;font-size:11px;\">C2-06</figcaption></figure>\n\nWe have an object of mass \n<math><mn>7</mn></math>\n kg and a rope with a varying mass density as per the formula \n<math><mrow><mrow><mi>&#955;</mi><mo>&#8289;</mo><mo>(</mo><mi>l</mi><mo>)</mo></mrow><mo>=</mo><mrow><mrow><mi>&#945;</mi><mo>&#8290;</mo><mi>l</mi></mrow><mo>+</mo><mi>&#946;</mi></mrow></mrow></math>\n where \n<math><mi>&#945;</mi></math>\n is a constant and has value \n<math><mrow><mn>2.2</mn><mi>kg</mi><mo>&#8290;</mo><msup><mi>m</mi><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow></math>\n, \n<math><mi>&#946;</mi></math>\n has value \n<math><mrow><mn>3</mn><mo>&#8290;</mo><mi>kg</mi><mo>&#8290;</mo><msup><mi>m</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow></math>\n and length of rope is \n<math><mn>20</mn></math>\n m .If block-rope system is accelerating on a frictionless surface due to external force \n<math><mi>F</mi></math>\n newtons, then force on block is \n<math><mn>0.01</mn></math>\n\n<math><mi>F</mi></math>\n newtons.",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": ""
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "Statement 2 is correct but 1 is correct"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "Both statements are correct"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "Statement 1 is correct but 2 is incorrect"
+                   },
+                   {
+                       "Id": 5,
+                       "statement": "Both statements are incorrect"
+                   }
+               ],
+               "hint": "Contact forces are short range electromagnetic forces that tend to disappear as two objects start losing contact. If \n<math><mi>&#955;</mi></math>\n is the mass density function, integration of mass density with respect to length gives mass i.e. \n<p align='center'><math><mrow><mrow><mrow><mstyle mathsize=\"1.4em\"><mo>&#8747;</mo></mstyle></mrow><mo>&#8290;</mo><mi>&#955;</mi><mo>&#8290;</mo><mtext>&#8202;&#8201;</mtext><mi>d</mi><mo>&#8290;</mo><mi>l</mi></mrow><mo>=</mo><mi>mass</mi></mrow></math></p>\n ",
+               "explanation": "<math><mrow><mrow><mi>&#955;</mi><mo>&#8289;</mo><mo>(</mo><mi>l</mi><mo>)</mo></mrow><mo>=</mo><mrow><mrow><mi>&#945;</mi><mo>&#8290;</mo><mi>l</mi></mrow><mo>+</mo><mi>&#946;</mi></mrow></mrow></math>\n \\[\\]\nMass of rope = \n<math><msub><mi>M</mi><mi>r</mi></msub></math>\n= \n<math><mrow><munderover><mrow><mstyle mathsize=\"1.4em\"><mo>&#8747;</mo></mstyle></mrow><mn>0</mn><mi>L</mi></munderover><mo>&#8290;</mo><mi>d</mi><mo>&#8290;</mo><mi>l</mi><mo>&#8290;</mo><mtext>&#8202;&#8201;</mtext><mrow><mrow><mi>&#945;</mi><mo>&#8290;</mo><mi>l</mi></mrow><mo>+</mo><mi>&#946;</mi></mrow></mrow></math>\n where \n<math><mi>L</mi></math>\n is length of rope in metres \\[\\]\nForce on object of mass M = \n<math><mfrac><mi>M</mi><mrow><msub><mi>M</mi><mi>r</mi></msub><mo>+</mo><mi>M</mi></mrow></mfrac></math>\n times \n<math><mi>F</mi></math>\n newtons.\n"
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000cr",
+           "object": {
+               "question": "Refer figure C2-11. \n\n<figure align=\"left\" style=\"margin-left:5px;margin-right:15px;\"><img id=\"imageLoad\" folder=\"g0007\" file=\"C2-11.svg\" src=\"../../uploads/C2-11.svg\" alt=\"error: check folder and file names\" style=\"width:100%;min-width:100px;background-color:rgb(250,250,250);padding:7px;border-radius:7px;\"><figcaption style=\"font-family:Arial;font-size:11px;\">C2-11</figcaption></figure>\n\nA man of mass \n<math><mn>45</mn></math>\n kg is standing on a platform of mass \n<math><mn>130</mn></math>\n kg. \\[\\]\nCase 1: He wants to go up with an acceleration \n<math><mn>1</mn></math>\n \n<math><mrow><mi>m</mi><mo>/</mo><msup><mi>s</mi><mn>2</mn></msup></mrow></math>\n. He applies a force of magnitude \n<math><msub><mi>F</mi><mi>up</mi></msub></math>\n newtons on both the ropes. \\[\\]\nCase 2: He wants to go down with the same acceleration. He applies a force of magnitude \n<math><msub><mi>F</mi><mi>down</mi></msub></math>\n newtons on both the ropes. \\[\\]\nTake the value of \n<math><mi>g</mi></math>\n as \n<math><mrow><mn>9.8</mn><mtext>&#8202;</mtext><mrow><mi>m</mi><mo>/</mo><msup><mi>s</mi><mn>2</mn></msup></mrow></mrow></math>\n.The ratio \n<math><mfrac><msub><mi>F</mi><mi>down</mi></msub><msub><mi>F</mi><mi>up</mi></msub></mfrac></math>\n is given by?",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "<math><mrow><mfrac><msub><mi>F</mi><mi>down</mi></msub><msub><mi>F</mi><mi>up</mi></msub></mfrac><mo>=</mo><mn>0.5</mn></mrow></math>"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "<math><mrow><mfrac><msub><mi>F</mi><mi>down</mi></msub><msub><mi>F</mi><mi>up</mi></msub></mfrac><mo>=</mo><mn>0.8</mn></mrow></math>"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "<math><mrow><mfrac><msub><mi>F</mi><mi>down</mi></msub><msub><mi>F</mi><mi>up</mi></msub></mfrac><mo>=</mo><mn>1.2</mn></mrow></math>"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "<math><mrow><mfrac><msub><mi>F</mi><mi>down</mi></msub><msub><mi>F</mi><mi>up</mi></msub></mfrac><mo>=</mo><mn>1.9</mn></mrow></math>"
+                   }
+               ],
+               "hint": "He may go up or go down, yet he always pulls the rope downwards. Hence, the force on the base is always upwards. ",
+               "explanation": "For upward motion, we have the following force equations: \\[\\]\nFor man:\n\n<p align='center'><math><mrow><mrow><mrow><mn>2</mn><mo>&#8290;</mo><msub><mi>F</mi><mi>up</mi></msub></mrow><mo>+</mo><mi>N</mi><mo>-</mo><mi>mg</mi></mrow><mo>=</mo><mi>ma</mi></mrow></math></p>\n \nwhere \n<math><mi>N</mi></math>\n is the normal reaction. Similarly, for base: \n\n<p align='center'><math><mrow><mrow><mrow><mn>2</mn><mo>&#8290;</mo><msub><mi>F</mi><mi>up</mi></msub></mrow><mo>-</mo><mi>N</mi><mo>-</mo><mi>Mg</mi></mrow><mo>=</mo><mi>Ma</mi></mrow></math></p>\n\nSimilarly, for downward motion,  we have: \\[\\]\nFor man:\n\n<p align='center'><math><mrow><mrow><mrow><mrow><mo>-</mo><mn>2</mn></mrow><mo>&#8290;</mo><msub><mi>F</mi><mi>down</mi></msub></mrow><mo>-</mo><mi>N</mi><mo>+</mo><mi>mg</mi></mrow><mo>=</mo><mi>ma</mi></mrow></math></p>\n \nFor base:\n\n<p align='center'><math><mrow><mrow><mrow><mrow><mo>-</mo><mn>2</mn></mrow><mo>&#8290;</mo><msub><mi>F</mi><mi>down</mi></msub></mrow><mo>+</mo><mi>N</mi><mo>+</mo><mi>Mg</mi></mrow><mo>=</mo><mi>Ma</mi></mrow></math></p>\n \nSolving the equations gives us the desired ratio.\n"
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000ee",
+           "object": {
+               "question": "Refer figure C1-03.\n\n<figure align=\"left\" style=\"margin-left:5px;margin-right:15px;\"><img id=\"imageLoad\" folder=\"g0007\" file=\"C1-03.svg\" src=\"../../uploads/C1-03.svg\" alt=\"error: check folder and file names\" style=\"width:100%;min-width:100px;background-color:rgb(250,250,250);padding:7px;border-radius:7px;\"><figcaption style=\"font-family:Arial;font-size:11px;\">C1-03</figcaption></figure>\n\nTwo particles \n<math><mi>A</mi></math>\n and \n<math><mi>B</mi></math>\n move in opposite directions around a circle with angular speeds \n<math><mrow><mn>1.57</mn><mtext>&#8202;</mtext><mrow><mi>rad</mi><mo>/</mo><mi>s</mi></mrow></mrow></math>\n. At time \n<math><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>\n, the particles start from point marked \n<math><mi>C</mi></math>\n. If radius of the circle is \n<math><mrow><mn>4</mn><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mi>metre</mi><mo>&#8290;</mo><mi>s</mi></mrow></mrow></math>\n, the relative velocity of \n<math><mi>A</mi></math>\n w.r.t \n<math><mi>B</mi></math>\n in \n<math><mrow><mi>m</mi><mo>/</mo><mi>s</mi></mrow></math>\n at time \n<math><mrow><mi>t</mi><mo>=</mo><mn>5</mn></mrow></math>\n seconds is given by which of the following? ",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "<math><mrow><mo>-</mo><mn>0.16</mn></mrow></math>\n\n<math><mover><mi>i</mi><mo>^</mo></mover></math>\n "
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "<math><mn>0.16</mn></math>\n\n<math><mover><mi>i</mi><mo>^</mo></mover></math>\n "
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "<math><mn>0.05</mn></math>\n\n<math><mover><mi>i</mi><mo>^</mo></mover></math>\n "
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "<math><mrow><mo>-</mo><mn>0.05</mn></mrow></math>\n\n<math><mover><mi>i</mi><mo>^</mo></mover></math>\n "
+                   }
+               ],
+               "hint": "Two points \n<math><mi>A</mi></math>\n and \n<math><mi>B</mi></math>\n have position vectors \n<math><mrow><mstyle mathvariant=\"bold\"><msub><mi>R</mi><mi>A</mi></msub></mstyle></mrow></math>\n and \n<math><mrow><mstyle mathvariant=\"bold\"><msub><mi>R</mi><mi>B</mi></msub></mstyle></mrow></math>\n, then relative position vector of \n<math><mi>A</mi></math>\n w.r.t. \n<math><mi>B</mi></math>\n is \n<math><mrow><mstyle mathvariant=\"bold\"><mrow><msub><mi>R</mi><mi>A</mi></msub><mo>-</mo><msub><mi>R</mi><mi>B</mi></msub></mrow></mstyle></mrow></math>\n and the relative velocity is given by: \n<p align='center'><math><mfrac><mrow><mi>d</mi><mo>&#8290;</mo><mrow><mstyle mathvariant=\"bold\"><mrow><msub><mi>R</mi><mi>A</mi></msub><mo>-</mo><msub><mi>R</mi><mi>B</mi></msub></mrow></mstyle></mrow></mrow><mrow><mi>d</mi><mo>&#8290;</mo><mi>t</mi></mrow></mfrac></math></p>",
+               "explanation": "Two points \n<math><mi>A</mi></math>\n and \n<math><mi>B</mi></math>\n have position vectors \n<math><mrow><mstyle mathvariant=\"bold\"><msub><mi>R</mi><mi>A</mi></msub></mstyle></mrow></math>\n and \n<math><mrow><mstyle mathvariant=\"bold\"><msub><mi>R</mi><mi>B</mi></msub></mstyle></mrow></math>\n, then relative position vector of \n<math><mi>A</mi></math>\n w.r.t. \n<math><mi>B</mi></math>\n is \n<math><mrow><mstyle mathvariant=\"bold\"><mrow><msub><mi>R</mi><mi>A</mi></msub><mo>-</mo><msub><mi>R</mi><mi>B</mi></msub></mrow></mstyle></mrow></math>\n and the relative velocity is given by: \n<p align='center'><math><mrow><mfrac><mrow><mi>d</mi><mo>&#8290;</mo><mrow><mstyle mathvariant=\"bold\"><mrow><msub><mi>R</mi><mi>A</mi></msub><mo>-</mo><msub><mi>R</mi><mi>B</mi></msub></mrow></mstyle></mrow></mrow><mrow><mi>d</mi><mo>&#8290;</mo><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>d</mi><mo>&#8290;</mo><mrow><mstyle mathvariant=\"bold\"><mi>BA</mi></mstyle></mrow></mrow><mrow><mi>d</mi><mo>&#8290;</mo><mi>t</mi></mrow></mfrac></mrow></math></p>\n\nIn \n<math><mrow><mi>&#916;</mi><mo>&#8290;</mo><mi>OAB</mi></mrow></math>\n,  \n<p align='center'><math><mrow><mi>AO</mi><mo>=</mo><mi>BO</mi><mo>=</mo><mi>r</mi></mrow></math></p>\n \n<p align='center'><math><mrow><mrow><mi>angle</mi><mo>&#8290;</mo><mi>AOB</mi></mrow><mo>=</mo><mrow><mn>2</mn><mo>&#8290;</mo><mi>&#969;</mi><mo>&#8290;</mo><mi>t</mi></mrow></mrow></math></p>\n \n<p align='center'><math><mrow><mi>AB</mi><mo>=</mo><mrow><mn>2</mn><mo>&#8290;</mo><mi>r</mi><mo>&#8290;</mo><mrow><mi>sin</mi><mo>&#8289;</mo><mo>(</mo><mrow><mi>&#969;</mi><mo>&#8290;</mo><mi>t</mi></mrow><mo>)</mo></mrow></mrow></mrow></math></p>\n\n\n<p align='center'><math><mrow><mrow><mi>Relative</mi><mo>&#8290;</mo><mi>velocity</mi></mrow><mo>=</mo><mrow><mstyle mathvariant=\"bold\"><msub><mi>v</mi><mi>AB</mi></msub></mstyle></mrow><mo>=</mo><mfrac><mrow><mi>d</mi><mo>&#8290;</mo><mrow><mstyle mathvariant=\"bold\"><mi>BA</mi></mstyle></mrow></mrow><mrow><mi>d</mi><mo>&#8290;</mo><mi>t</mi></mrow></mfrac></mrow></math></p>"
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000d6",
+           "object": {
+               "question": "Refer figure C1-01.\n\n<figure align=\"left\" style=\"margin-left:5px;margin-right:15px;\"><img id=\"imageLoad\" folder=\"g0007\" file=\"C1-01.svg\" src=\"../../uploads/C1-01.svg\" alt=\"error: check folder and file names\" style=\"width:100%;min-width:100px;background-color:rgb(250,250,250);padding:7px;border-radius:7px;\"><figcaption style=\"font-family:Arial;font-size:11px;\">C1-01</figcaption></figure>\n\n A bead is present on the spoke of a fixed rotating wheel and can move with uniform speed \n<math><mrow><mi>u</mi><mo>=</mo><mn>1</mn></mrow></math>\n m/s  in radial direction, when the wheel rotates in the x-y plane about a fixed axis with a uniform angular velocity with \n<math><mrow><mi>&#969;</mi><mo>=</mo><mfrac><mi>&#960;</mi><mn>4</mn></mfrac></mrow></math>\n \n<math><mrow><mi>rad</mi><mo>/</mo><mi>s</mi></mrow></math>\n. At time \n<math><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></math>\n, the spoke is along x-axis and bead is at origin. At time \n<math><mrow><mi>t</mi><mo>=</mo><mn>9</mn></mrow></math>\n seconds, acceleration of the bead is given by:\n\n",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "<math><mrow><mstyle mathvariant=\"bold\"><mi>a</mi></mstyle></mrow></math>\n = \n<math><mrow><mrow><mfrac><mrow><mn>9</mn><mo>&#8290;</mo><msup><mi>&#960;</mi><mn>2</mn></msup></mrow><mn>16</mn></mfrac><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mstyle mathvariant=\"bold\"><mover><mtext>r</mtext><mo>^</mo></mover></mstyle></mrow></mrow><mo>+</mo><mrow><mfrac><mi>&#960;</mi><mn>2</mn></mfrac><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mstyle mathvariant=\"bold\"><mover><mo>&#952;</mo><mo>^</mo></mover></mstyle></mrow></mrow></mrow></math>"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "<math><mrow><mstyle mathvariant=\"bold\"><mi>a</mi></mstyle></mrow></math>\n = \n<math><mrow><mrow><mfrac><mrow><mn>9</mn><mo>&#8290;</mo><msup><mi>&#960;</mi><mn>2</mn></msup></mrow><mn>16</mn></mfrac><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mstyle mathvariant=\"bold\"><mover><mtext>r</mtext><mo>^</mo></mover></mstyle></mrow></mrow><mo>-</mo><mrow><mrow><mrow><mo>-</mo><mn>4</mn></mrow><mo>&#8290;</mo><mi>&#960;</mi></mrow><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mstyle mathvariant=\"bold\"><mover><mo>&#952;</mo><mo>^</mo></mover></mstyle></mrow></mrow></mrow></math>"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "<math><mrow><mstyle mathvariant=\"bold\"><mi>a</mi></mstyle></mrow></math>\n = \n<math><mrow><mrow><mrow><mn>4</mn><mo>&#8290;</mo><msup><mi>&#960;</mi><mn>2</mn></msup></mrow><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mstyle mathvariant=\"bold\"><mover><mtext>r</mtext><mo>^</mo></mover></mstyle></mrow></mrow><mo>-</mo><mrow><mrow><mrow><mo>-</mo><mn>4</mn></mrow><mo>&#8290;</mo><mi>&#960;</mi></mrow><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mstyle mathvariant=\"bold\"><mover><mo>&#952;</mo><mo>^</mo></mover></mstyle></mrow></mrow></mrow></math>"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "<math><mrow><mstyle mathvariant=\"bold\"><mi>a</mi></mstyle></mrow></math>\n = \n<math><mrow><mrow><mrow><mn>4</mn><mo>&#8290;</mo><msup><mi>&#960;</mi><mn>2</mn></msup></mrow><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mstyle mathvariant=\"bold\"><mover><mtext>r</mtext><mo>^</mo></mover></mstyle></mrow></mrow><mo>+</mo><mrow><mfrac><mi>&#960;</mi><mn>2</mn></mfrac><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mstyle mathvariant=\"bold\"><mover><mo>&#952;</mo><mo>^</mo></mover></mstyle></mrow></mrow></mrow></math>"
+                   }
+               ],
+               "hint": "As the wheel rotates and bead moves, we have radius of bead \n<p align='center'><math><mrow><mi>r</mi><mo>=</mo><mrow><mi>ut</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>&#8198;</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>and</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>&#8198;</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>&#952;</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>&#8198;</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>as</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>&#8198;</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mi>angular</mi><mo>&#8290;</mo><mi>displacement</mi></mrow></mrow></mrow></math></p>\n \nHence, \n<p align='center'><math><mrow><mover><mi>r</mi><mtext>.</mtext></mover><mo>=</mo><mi>u</mi></mrow></math></p>\n \n<p align='center'><math><mrow><mover><mi>&#952;</mi><mtext>.</mtext></mover><mo>=</mo><mi>&#969;</mi></mrow></math></p>\n \n<p align='center'><math><mrow><mover><mi>&#952;</mi><mrow><mo>.</mo><mtext>&#8202;</mtext><mo>.</mo></mrow></mover><mo>=</mo><mn>0</mn></mrow></math></p>\n\nFrom here, find \n<p align='center'><math><mfrac><mrow><mi>d</mi><mo>&#8290;</mo><mrow><mstyle mathvariant=\"bold\"><mrow><mi>r</mi><mo>&#8289;</mo><mo>(</mo><mi>t</mi><mo>)</mo></mrow></mstyle></mrow></mrow><mrow><mi>d</mi><mo>&#8290;</mo><mi>t</mi></mrow></mfrac></math></p>\n which eventually gives acceleration.\n\n",
+               "explanation": "As the wheel rotates and bead moves, we have radius of bead \n<p align='center'><math><mrow><mi>r</mi><mo>=</mo><mrow><mi>ut</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>&#8198;</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>and</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>&#8198;</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>&#952;</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>&#8198;</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>as</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>&#8198;</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mi>angular</mi><mo>&#8290;</mo><mi>displacement</mi></mrow></mrow></mrow></math></p>\n \nHence, \n<p align='center'><math><mrow><mover><mi>r</mi><mtext>.</mtext></mover><mo>=</mo><mi>u</mi></mrow></math></p>\n \n<p align='center'><math><mrow><mover><mi>&#952;</mi><mtext>.</mtext></mover><mo>=</mo><mi>&#969;</mi></mrow></math></p>\n \n<p align='center'><math><mrow><mover><mi>&#952;</mi><mrow><mo>.</mo><mtext>&#8202;</mtext><mo>.</mo></mrow></mover><mo>=</mo><mn>0</mn></mrow></math></p>\n\nIn circular coordinates system, we have \n<p align='center'><math><mrow><mfrac><mrow><mi>d</mi><mo>&#8290;</mo><mover><mrow><mstyle mathvariant=\"bold\"><mi>r</mi></mstyle></mrow><mo>^</mo></mover></mrow><mrow><mi>d</mi><mo>&#8290;</mo><mi>t</mi></mrow></mfrac><mo>=</mo><mrow><mover><mi>&#952;</mi><mtext>.</mtext></mover><mo>&#8290;</mo><mrow><mstyle mathvariant=\"bold\"><mover><mo>&#952;</mo><mo>^</mo></mover></mstyle></mrow></mrow></mrow></math></p>\n \n\n<p align='center'><math><mrow><mfrac><mrow><mi>d</mi><mo>&#8290;</mo><mover><mrow><mstyle mathvariant=\"bold\"><mi>&#952;</mi></mstyle></mrow><mo>^</mo></mover></mrow><mrow><mi>d</mi><mo>&#8290;</mo><mi>t</mi></mrow></mfrac><mo>=</mo><mrow><mrow><mo>-</mo><mover><mi>&#952;</mi><mtext>.</mtext></mover></mrow><mo>&#8290;</mo><mrow><mstyle mathvariant=\"bold\"><mover><mtext>r</mtext><mo>^</mo></mover></mstyle></mrow></mrow></mrow></math></p>\n \nSo, \n<math><mrow><mrow><mstyle mathvariant=\"bold\"><mi>v</mi></mstyle></mrow><mo>=</mo><mfrac><mrow><mi>d</mi><mo>&#8290;</mo><mrow><mrow><mstyle mathvariant=\"bold\"><mi>r</mi></mstyle></mrow><mo>&#8289;</mo><mrow><mo>(</mo><mi>t</mi><mo>)</mo></mrow></mrow></mrow><mrow><mi>d</mi><mo>&#8290;</mo><mi>t</mi></mrow></mfrac></mrow></math>\n is\n\n<math><mfrac><mrow><mi>d</mi><mo>&#8290;</mo><mrow><mo>(</mo><mrow><mi>r</mi><mo>&#8290;</mo><mover><mrow><mstyle mathvariant=\"bold\"><mi>r</mi></mstyle></mrow><mo>^</mo></mover></mrow><mo>)</mo></mrow></mrow><mrow><mi>d</mi><mo>&#8290;</mo><mi>t</mi></mrow></mfrac></math>\n\\[\\]\nSimplifying the expression, we get: \n<p align='center'><math><mrow><mrow><mstyle mathvariant=\"bold\"><mi>v</mi></mstyle></mrow><mo>=</mo><mrow><mrow><mover><mi>r</mi><mtext>.</mtext></mover><mo>&#8290;</mo><mrow><mstyle mathvariant=\"bold\"><mover><mtext>r</mtext><mo>^</mo></mover></mstyle></mrow></mrow><mo>+</mo><mrow><mrow><mo>(</mo><mrow><mi>r</mi><mo>&#8290;</mo><mover><mi>&#952;</mi><mtext>.</mtext></mover></mrow><mo>)</mo></mrow><mo>&#8290;</mo><mrow><mstyle mathvariant=\"bold\"><mover><mo>&#952;</mo><mo>^</mo></mover></mstyle></mrow></mrow></mrow></mrow></math></p>\n\nand this on further differentiation gives:\n\n<p align='center'><math><mrow><mrow><mstyle mathvariant=\"bold\"><mi>a</mi></mstyle></mrow><mo>=</mo><mrow><mrow><mrow><mo>(</mo><mrow><mrow><mover><mi>r</mi><mrow><mo>.</mo><mtext>&#8202;</mtext><mo>.</mo></mrow></mover><mo>-</mo><mi>r</mi></mrow><mo>&#8290;</mo><mtext>&#8202;</mtext><mover><msup><mi>&#952;</mi><mn>2</mn></msup><mtext>.</mtext></mover></mrow><mo>)</mo></mrow><mo>&#8290;</mo><mrow><mstyle mathvariant=\"bold\"><mover><mtext>r</mtext><mo>^</mo></mover></mstyle></mrow></mrow><mo>+</mo><mrow><mrow><mo>(</mo><mrow><mi>r</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mover><mi>&#952;</mi><mrow><mo>.</mo><mtext>&#8202;</mtext><mo>.</mo></mrow></mover><mo>+</mo><mrow><mn>2</mn><mo>&#8290;</mo><mover><mi>r</mi><mtext>.</mtext></mover><mo>&#8290;</mo><mover><mi>&#952;</mi><mtext>.</mtext></mover></mrow></mrow></mrow><mo>)</mo></mrow><mo>&#8290;</mo><mrow><mstyle mathvariant=\"bold\"><mover><mo>&#952;</mo><mo>^</mo></mover></mstyle></mrow></mrow></mrow></mrow></math></p>"
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000ej",
+           "object": {
+               "question": "Refer figure C1-02.  \n\n<figure align=\"left\" style=\"margin-left:5px;margin-right:15px;\"><img id=\"imageLoad\" folder=\"g0007\" file=\"C1-02.svg\" src=\"../../uploads/C1-02.svg\" alt=\"error: check folder and file names\" style=\"width:100%;min-width:100px;background-color:rgb(250,250,250);padding:7px;border-radius:7px;\"><figcaption style=\"font-family:Arial;font-size:11px;\">C1-02</figcaption></figure>\n\nA simple way to measure acceleration due to gravity is to use projectile and measure the time it takes to pass through a given point in two different directions. Assuming that the measured time taken for two different levels are \n<math><msub><mi>T</mi><mn>1</mn></msub></math>\n and \n<math><msub><mi>T</mi><mn>2</mn></msub></math>\n seconds and the distance between both levels is\n<math><mi>h</mi></math>\n metres, the acceleration due to gravity is equal to:\\[\\]",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "<math><mfrac><mrow><mn>4</mn><mo>&#8290;</mo><mi>h</mi></mrow><mrow><msub><msup><mi>T</mi><mn>2</mn></msup><mn>1</mn></msub><mo>-</mo><msub><msup><mi>T</mi><mn>2</mn></msup><mn>2</mn></msub></mrow></mfrac></math>"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "<math><mfrac><mrow><mn>4</mn><mo>&#8290;</mo><mi>h</mi></mrow><mrow><msub><msup><mi>T</mi><mn>2</mn></msup><mn>1</mn></msub><mo>+</mo><msub><msup><mi>T</mi><mn>2</mn></msup><mn>2</mn></msub></mrow></mfrac></math>"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "<math><mfrac><mrow><mn>8</mn><mo>&#8290;</mo><mi>h</mi></mrow><mrow><msub><msup><mi>T</mi><mn>2</mn></msup><mn>1</mn></msub><mo>-</mo><msub><msup><mi>T</mi><mn>2</mn></msup><mn>2</mn></msub></mrow></mfrac></math>"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "<math><mfrac><mrow><mn>8</mn><mo>&#8290;</mo><mi>h</mi></mrow><mrow><msub><msup><mi>T</mi><mn>2</mn></msup><mn>1</mn></msub><mo>+</mo><msub><msup><mi>T</mi><mn>2</mn></msup><mn>2</mn></msub></mrow></mfrac></math>"
+                   }
+               ],
+               "hint": "Use kinematics equations of motion assuming starting point as \n<math><mi>A</mi></math>\n in figure.",
+               "explanation": "Assume point \n<math><mi>A</mi></math>\n to be launch point. With reference to point \n<math><mi>A</mi></math>\n, let the velocity in \n<math><mrow><mi>y</mi><mo>&#8290;</mo><mi>direction</mi></mrow></math>\n be \n<math><msub><mi>v</mi><mi>Ay</mi></msub></math>\n. So, we have: \n\n<p align='center'><math><mrow><mrow><msub><mi>s</mi><mi>y</mi></msub><mo>-</mo><msub><mi>s</mi><mi>Ay</mi></msub></mrow><mo>=</mo><mrow><mrow><msub><mi>v</mi><mi>Ay</mi></msub><mo>&#8290;</mo><mi>t</mi></mrow><mo>-</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#8290;</mo><mi>g</mi><mo>&#8290;</mo><msup><mi>t</mi><mn>2</mn></msup></mrow></mrow></mrow></math></p>\n After \n<math><mrow><mi>t</mi><mo>=</mo><msub><mi>T</mi><mn>1</mn></msub></mrow></math>\n\n\n<p align='center'><math><mrow><mrow><msub><mi>s</mi><mi>By</mi></msub><mo>-</mo><msub><mi>s</mi><mi>Ay</mi></msub></mrow><mo>=</mo><mn>0</mn><mo>=</mo><mrow><mrow><msub><mi>v</mi><mi>Ay</mi></msub><mo>&#8290;</mo><msub><mi>T</mi><mn>1</mn></msub></mrow><mo>-</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#8290;</mo><mi>g</mi><mo>&#8290;</mo><msubsup><mi>T</mi><mn>1</mn><mn>2</mn></msubsup></mrow></mrow></mrow></math></p>\n and on simplification we get\n\n<p align='center'><math><mrow><msub><mi>v</mi><mi>Ay</mi></msub><mo>=</mo><mfrac><mrow><msub><mi>T</mi><mn>1</mn></msub><mo>&#8290;</mo><mi>g</mi></mrow><mn>2</mn></mfrac></mrow></math></p>\n\nCarefully observe the figure. We have: \n<p align='center'><math><mrow><mi>h</mi><mo>=</mo><mrow><mrow><msub><mi>v</mi><mi>Ay</mi></msub><mo>&#8290;</mo><mfrac><mrow><msub><mi>T</mi><mn>1</mn></msub><mo>-</mo><msub><mi>T</mi><mn>2</mn></msub></mrow><mn>2</mn></mfrac></mrow><mo>-</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#8290;</mo><mi>g</mi><mo>&#8290;</mo><msup><mrow><mo>(</mo><mfrac><mrow><msub><mi>T</mi><mn>1</mn></msub><mo>-</mo><msub><mi>T</mi><mn>2</mn></msub></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></mrow></mrow></mrow></math></p>\n\nFrom here, we can find acceleration due to gravity \n<math><mi>g</mi></math>\n."
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000fc",
+           "object": {
+               "question": "Electromagnetic waves can be converted to matter. A photon can materialize into an electron and a positron in the process called pair production. The reverse process i.e. conversion of matter to electromagnetic wave is called pair annihilation.  Which of the following statements is incorrect regarding both the processes?",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "Both the processes obey conservation of energy and momentum"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "Gamma rays are suitable for pair production process"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "Process of pair production requires total energy of at least 0.51 MeV"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "Pair production cannot occur in empty space"
+                   }
+               ],
+               "hint": "Use the mass energy equivalence relation \n<p align='center'><math><mrow><mi>e</mi><mo>=</mo><mrow><mi>m</mi><mo>&#8290;</mo><msup><mi>c</mi><mn>2</mn></msup></mrow></mrow></math></p>\n to find out the energy values.",
+               "explanation": "According to Einstein&#39;s mass-energy relation:  \n<p align='center'><math><mrow><mi>e</mi><mo>=</mo><mrow><mi>m</mi><mo>&#8290;</mo><msup><mi>c</mi><mn>2</mn></msup></mrow></mrow></math></p>\n\nPutting mass of electron in the formula, we get \n<p align='center'><math><mrow><mi>e</mi><mo>=</mo><mrow><mn>9.1</mn><mo>&#10799;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>31</mn></mrow></msup><mo>&#10799;</mo><msup><mrow><mo>(</mo><mrow><mn>3</mn><mo>&#10799;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mo>)</mo></mrow><mn>2</mn></msup></mrow></mrow></math></p>\n  which is 0.51 MeV. For a pair production, hence total energy needed is 1.02 MeV. Gamma ray photons carry that much energy and hence are suitable for pair production process."
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000fm",
+           "object": {
+               "question": " A pure metallic ball of diameter \n<math><mrow><mi>d</mi><mo>=</mo><mrow><mn>5</mn><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>cm</mi></mrow></mrow></math>\n  and work function \n<math><mrow><mi>&#981;</mi><mo>=</mo><mrow><mn>4.24</mn><mtext>&#8202;</mtext><mi>eV</mi></mrow></mrow></math>\n is suspended from a non-conducting thread in vacuum. A certain radiation gun shines a radiation of wavelength \n<math><mrow><mi>&#955;</mi><mo>=</mo><mrow><mn>204</mn><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>nm</mi></mrow></mrow></math>\n on it. Imagine the radiation falls on the whole ball evenly. Which of the following statements is wrong?",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "The voltage acquired is \n<math><mrow><mtext>1.84</mtext><mtext>&#8202;</mtext><mi>V</mi></mrow></math>"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "If the diameter is increased by a factor \n<math><mn>2</mn></math>\n, the potential acquired is multiplied by a factor \n<math><mn>4</mn></math>"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "Greater work function of metal implies lesses voltage acquired"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "The potential is linearly dependent on radiation frequency "
+                   }
+               ],
+               "hint": "The voltage acquired is solely dependent on two factors- work function of metal \n<math><mi>&#981;</mi></math>\n and energy of incident radiation. It is independent of shape and size of material under radiation. ",
+               "explanation": "By Einstein&#39;s photoelectric equation:\n\n<p align='center'><math><mrow><mrow><mfrac><mi>hc</mi><mi>&#955;</mi></mfrac><mo>-</mo><mi>&#981;</mi></mrow><mo>=</mo><mtext>energy gained</mtext></mrow></math></p>\n\nIf our energy gained is potential energy,  we can easily get the voltage acquired by calculating the energy gained in eV."
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000fp",
+           "object": {
+               "question": "A black hole is a place in space where gravity pulls so much that even light can not get out. The gravity is so strong because matter has been squeezed into a tiny space. This can happen when a star is dying.  A dying star is observed to have a diameter \n<math><mrow><mi>D</mi><mo>=</mo><mrow><mn>300</mn><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>km</mi></mrow></mrow></math>\n. It eventually turns into a blackhole. Which of the following is an approximate correct prediction about it&#39;s mass?",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "<math><mrow><mi>M</mi><mtext>&#8202;</mtext><mo>&#8805;</mo><mtext>&#8202;</mtext><mrow><mn>1.01</mn><mo>&#215;</mo><msup><mn>10</mn><mn>32</mn></msup></mrow></mrow></math>"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "<math><mrow><mi>M</mi><mtext>&#8202;</mtext><mo>&#8804;</mo><mtext>&#8202;</mtext><mrow><mn>1.01</mn><mo>&#215;</mo><msup><mn>10</mn><mn>32</mn></msup></mrow></mrow></math>"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "<math><mrow><mi>M</mi><mtext>&#8202;</mtext><mo>&#8805;</mo><mtext>&#8202;</mtext><mrow><mn>1.01</mn><mo>&#215;</mo><msup><mn>10</mn><mn>29</mn></msup></mrow></mrow></math>"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "<math><mrow><mi>M</mi><mtext>&#8202;</mtext><mo>&#8804;</mo><mtext>&#8202;</mtext><mrow><mn>1.01</mn><mo>&#215;</mo><msup><mn>10</mn><mn>29</mn></msup></mrow></mrow></math>"
+                   }
+               ],
+               "hint": "Use the Schwarzschild black hole formula to predict the mass.",
+               "explanation": "In a situation, where gravitational pull almost equals total energy of a photon (which only can happen in case of  black hole), general relativity predicts for a dying star of mass \n<math><mrow><mi>M</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>kg</mi></mrow></math>\n and radius \n<math><mrow><mi>R</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>kg</mi></mrow></math>\n: \n<p align='center'><math><mrow><mfrac><mi>GM</mi><msup><mi>Rc</mi><mn>2</mn></msup></mfrac><mo>&#8805;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math></p>\n "
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000f5",
+           "object": {
+               "question": " An EM wave of wavelength \n<math><mrow><mi>&#955;</mi><mo>=</mo><mrow><mn>150</mn><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>nm</mi></mrow></mrow></math>\n and intensity \n<math><mrow><mi>I</mi><mo>=</mo><mrow><mn>0.5</mn><mtext>&#8202;</mtext><mrow><mi>W</mi><mo>/</mo><msup><mi>m</mi><mn>2</mn></msup></mrow></mrow></mrow></math>\n is incident on a metal with work function \n<math><mrow><mi>&#981;</mi><mo>=</mo><mrow><mn>1.9</mn><mtext>&#8202;</mtext><mi>eV</mi></mrow></mrow></math>\n  and surface area \n<math><mrow><mi>A</mi><mo>=</mo><mrow><mn>1</mn><mtext>&#8202;</mtext><msup><mi>cm</mi><mn>2</mn></msup></mrow></mrow></math>\n. If \n<math><mrow><mn>4</mn><mtext>&#8202;</mtext><mo>&#10799;</mo><mtext>&#8202;</mtext><msup><mn>10</mn><mn>13</mn></msup></mrow></math>\n number of electrons got emitted per second as detected by a sensitive detector, then what is the value of quantum efficiency? ",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "<math><mtext>0.531</mtext></math>"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "<math><mtext>0.796</mtext></math>"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "<math><mtext>1.593</mtext></math>"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "<math><mtext>1.062</mtext></math>"
+                   }
+               ],
+               "hint": "Quantum efficiency is given by: \n<p align='center'><math><mrow><mi>efficiency</mi><mo>=</mo><mfrac><mrow><mi>number</mi><mo>&#8290;</mo><mi>of</mi><mo>&#8290;</mo><mi>electrons</mi><mo>&#8290;</mo><mi>ejected</mi><mo>&#8290;</mo><mi>per</mi><mo>&#8290;</mo><mi>second</mi></mrow><mrow><mi>number</mi><mo>&#8290;</mo><mi>of</mi><mo>&#8290;</mo><mi>photons</mi><mo>&#8290;</mo><mi>incident</mi><mo>&#8290;</mo><mi>per</mi><mo>&#8290;</mo><mi>second</mi></mrow></mfrac></mrow></math></p>\n ",
+               "explanation": "Quantum efficiency is given by: \n<p align='center'><math><mrow><mi>efficiency</mi><mo>=</mo><mfrac><mrow><mi>number</mi><mo>&#8290;</mo><mi>of</mi><mo>&#8290;</mo><mi>electrons</mi><mo>&#8290;</mo><mi>ejected</mi><mo>&#8290;</mo><mi>per</mi><mo>&#8290;</mo><mi>second</mi></mrow><mrow><mi>number</mi><mo>&#8290;</mo><mi>of</mi><mo>&#8290;</mo><mi>photons</mi><mo>&#8290;</mo><mi>incident</mi><mo>&#8290;</mo><mi>per</mi><mo>&#8290;</mo><mi>second</mi></mrow></mfrac></mrow></math></p>\n \nNumber of photons emitted per second = \n<p align='center'><math><mfrac><mrow><mi>total</mi><mo>&#8290;</mo><mi>energy</mi><mo>&#8290;</mo><mi>irradiated</mi><mo>&#8290;</mo><mi>on</mi><mo>&#8290;</mo><mi>substrate</mi><mo>&#8290;</mo><mi>per</mi><mo>&#8290;</mo><mi>second</mi></mrow><mrow><mi>energy</mi><mo>&#8290;</mo><mi>per</mi><mo>&#8290;</mo><mi>photon</mi></mrow></mfrac></math></p>\n\n\n<p align='center'><math><mrow><mtext>=</mtext><mfrac><mrow><mi>intensity</mi><mtext>&#8202;</mtext><mo>&#10799;</mo><mtext>&#8202;</mtext><mi>area</mi></mrow><mrow><mrow><mo>(</mo><mrow><mi>h</mi><mo>&#8290;</mo><mi>c</mi></mrow><mo>)</mo></mrow><mo>/</mo><mi>&#955;</mi></mrow></mfrac></mrow></math></p>"
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000f6",
+           "object": {
+               "question": "X-radiation (composed of X-rays) is a form of electromagnetic radiation having wavelength ranging from 0.01 to 10 nanometers, corresponding to frequencies in the range 30 petahertz to 30 exahertz (\n<math><mrow><mrow><mn>3</mn><mo>&#10799;</mo><msup><mn>10</mn><mn>16</mn></msup></mrow><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>to</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mn>3</mn><mo>&#10799;</mo><msup><mn>10</mn><mn>19</mn></msup></mrow><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>Hz</mi></mrow></math>\n) and energies in the range 100 eV to 100 keV. Which of the following statements is incorrect regarding X-rays?",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "Ignoring work function of metal, for an accelerating potential of \n<math><mrow><mi>V</mi><mo>=</mo><mn>40000</mn></mrow></math>\n volts, the minimum wavelength if found to be \n<math><mrow><mrow><mn>3.1</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>12</mn></mrow></msup></mrow><mtext>&#8202;</mtext><mi>m</mi></mrow></math>\n "
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "The maximum kinetic energy of a bombarding electron at accelerating potential of \n<math><mrow><mi>V</mi><mo>=</mo><mrow><mn>40000</mn><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>volts</mi></mrow></mrow></math>\n is \n<math><mrow><mn>6.4</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>15</mn></mrow></msup></mrow></math>\n J"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "In an X-ray tube used for production of X-ray, higher accelerating voltage produces shorter wavelength X-rays"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "In an X-ray tube used for production of X-ray, generally the cathode (which is negative) is heated to generate electrons via a process called thermionic emission. "
+                   }
+               ],
+               "hint": "The maximum bombarding energy of electron depends on the kinetic energy electron gains as it accelerates in the accelerating potential region. The cathode is generally negatively charged in a X-ray tube, and is heated to eject electrons. Finally, higher accelerating voltage produces shorter wavelength X-rays.",
+               "explanation": "Refer hint for theoretical explanations. \\[\\]\nWe know in a tube, where accelerating potential is applied, more energetic electrons eject more energetic photons, which means smaller frequencies. When an accelerating potential of \n<math><mrow><mi>V</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>volts</mi></mrow></math>\n gets applied, the minimum wavelength is given by \n\n<p align='center'><math><mrow><msub><mi>&#955;</mi><mi>min</mi></msub><mo>=</mo><mrow><mfrac><mrow><mn>1.24</mn><mo>&#10799;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup></mrow><mi>V</mi></mfrac><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>m</mi></mrow></mrow></math></p>"
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000da",
+           "object": {
+               "question": "A rubber ball of mass \n<math><mrow><mi>m</mi><mo>=</mo><mn>0.7</mn></mrow></math>\n kg is is allowed to fall from rest, vertically from a height of \n<math><mrow><mi>h</mi><mo>=</mo><mn>7</mn></mrow></math>\n metre(s). It rebounds off the frictionless floor with almost same speed (this is called elastic collision). The contact time with ground is roughly \n<math><mrow><mrow><mi>&#916;</mi><mo>&#8290;</mo><mi>t</mi></mrow><mo>=</mo><mrow><mn>4</mn><mtext>&#8202;</mtext><mo>&#215;</mo><mtext>&#8202;</mtext><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow></mrow></math>\n seconds. Consider the line of impact to be \n<math><mover><mi>k</mi><mo>^</mo></mover></math>\n. Which of the following statements are incorrect regarding the collision? (Take \n<math><mrow><mi>g</mi><mo>=</mo><mrow><mn>9.8</mn><mtext>&#8202;</mtext><mi>&#8198;</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mi>m</mi><mo>/</mo><msup><mi>s</mi><mn>2</mn></msup></mrow></mrow></mrow></math>\n)",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "The magnitude of impulse on the ball is \n<math><mn>16.4</mn></math>\n Ns"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "The impulse due to contact force between floor and ball is directed along \n<math><mover><mtext>k</mtext><mo>^</mo></mover></math>"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "The average force on the ball during the impact is \n<math><mn>4099.6</mn></math>\n N"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "The impulse due to gravitational force is directed along \n<math><mover><mtext>k</mtext><mo>^</mo></mover></math>"
+                   }
+               ],
+               "hint": "In classical (Newtonian) mechanics, impulse is the integral of a force \n<math><mi>F</mi></math>\n over the time interval \n<math><mrow><mi>&#916;</mi><mo>&#8290;</mo><mi>t</mi></mrow></math>\n, for which it acts. Since, force is a vector quantity, impulse is also a vector in the same direction. Impulse applied to an object produces an equivalent vector change in its linear momentum, also in the same direction",
+               "explanation": "In classical (Newtonian) mechanics, impulse is the integral of a force \n<math><mi>F</mi></math>\n over the time interval \n<math><mrow><mi>&#916;</mi><mo>&#8290;</mo><mi>t</mi></mrow></math>\n, for which it acts. Since, force is a vector quantity, impulse is also a vector in the same direction. Impulse applied to an object produces an equivalent vector change in its linear momentum, also in the same direction. Mathematically:\n\n\n<p align='center'><math><mrow><mrow><mstyle mathvariant=\"bold\"><mi>J</mi></mstyle></mrow><mo>=</mo><mrow><mrow><mstyle mathvariant=\"bold\"><mi>F</mi></mstyle></mrow><mo>&#8290;</mo><mi>dt</mi></mrow></mrow></math></p>\n\nwhere \n<math><mrow><mstyle mathvariant=\"bold\"><mi>F</mi></mstyle></mrow></math>\n is resultant of gravitational force and contact force from floor. Hence, gravitational impulse is directed downwards. "
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000cz",
+           "object": {
+               "question": "A small plane weighing \n<math><mrow><mi>m</mi><mo>=</mo><mn>1700</mn></mrow></math>\n kg makes an emergency landing on a short runway. It touches the ground with engine turned off at velocity \n<math><mrow><mi>v</mi><mo>=</mo><mn>55</mn></mrow></math>\n\n<math><mrow><mi>m</mi><mo>/</mo><mi>s</mi></mrow></math>\n. A hook on the plane snags a cable attached to a sandbag of mass \n<math><mrow><mi>M</mi><mo>=</mo><mn>150</mn></mrow></math>\n kg and drags the sandbag along, as a part of emergency landing procedure. The coefficient of friction between bag and ground is \n<math><mrow><mi>&#956;</mi><mo>=</mo><mn>0.3</mn></mrow></math>\n. The plane&#39;s brake gives an additional retardation force of \n<math><mrow><msub><mi>F</mi><mi>r</mi></msub><mo>=</mo><mn>1360</mn></mrow></math>\n N.  Let \n<math><mi>l</mi></math>\n denote the minimum length of runway in metres required for safe landing in this condition. Choose the correct option.",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "<math><mrow><mi>l</mi><mtext>&#8202;</mtext><mo>&#8805;</mo><mtext>&#8202;</mtext><mn>2623.8</mn></mrow></math>\n metres for plane to land safely"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "<math><mrow><mi>l</mi><mtext>&#8202;</mtext><mo>&#8805;</mo><mtext>&#8202;</mtext><mn>656</mn></mrow></math>\n metres for plane to land safely"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "<math><mrow><mi>l</mi><mtext>&#8202;</mtext><mo>&#8805;</mo><mtext>&#8202;</mtext><mn>1311.9</mn></mrow></math>\n metres for plane to land safely"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "<math><mrow><mi>l</mi><mtext>&#8202;</mtext><mo>&#8805;</mo><mtext>&#8202;</mtext><mn>5247.7</mn></mrow></math>\n metres for plane to land safely"
+                   }
+               ],
+               "hint": "When the plane lands and snags the cable attached to the sandbag, there is a reduction of velocity as a result of conservation of momentum. The net retarding force is due to retardation of plane due to brakes getting applied and the fraction on the sandbag.",
+               "explanation": "When the plane lands and snags the cable attached to the sandbag, there is a reduction of velocity as a result of conservation of momentum. New velocity \n<p align='center'><math><mrow><msub><mi>v</mi><mi>new</mi></msub><mo>=</mo><mfrac><mrow><mi>m</mi><mo>&#8290;</mo><mi>v</mi></mrow><mrow><mi>m</mi><mo>+</mo><mi>M</mi></mrow></mfrac></mrow></math></p>\n\nThe net retarding force is due to retardation of plane due to brakes getting applied and the fraction on the sandbag. Hence, we have:\n\n<p align='center'><math><mrow><msub><mi>F</mi><mi>net</mi></msub><mo>=</mo><mrow><msub><mi>F</mi><mi>r</mi></msub><mo>+</mo><mrow><mi>&#956;</mi><mo>&#8290;</mo><mi>M</mi><mo>&#8290;</mo><mi>g</mi></mrow></mrow></mrow></math></p>\n\nNet deceleration has magnitude \n<p align='center'><math><mrow><mi>a</mi><mo>=</mo><mfrac><msub><mi>F</mi><mi>net</mi></msub><mrow><mi>M</mi><mo>+</mo><mi>m</mi></mrow></mfrac></mrow></math></p>\n\nDistance covered before coming to stop is hence: \n<p align='center'><math><mrow><mi>d</mi><mo>=</mo><mfrac><msubsup><mi>v</mi><mi>new</mi><mn>2</mn></msubsup><mrow><mn>2</mn><mo>&#8290;</mo><mi>a</mi></mrow></mfrac></mrow></math></p>"
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000cu",
+           "object": {
+               "question": "A rope of mass \n<math><mrow><mi>m</mi><mo>=</mo><mn>5</mn></mrow></math>\n kg and length \n<math><mrow><mi>l</mi><mo>=</mo><mrow><mn>20</mn><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>m</mi></mrow></mrow></math>\n is lying on a frictionless table with a short portion \n<math><mrow><msub><mi>l</mi><mn>0</mn></msub><mo>=</mo><mrow><mn>0.7</mn><mtext>&#8202;</mtext><mi>m</mi></mrow></mrow></math>\n  hanging freely through a hole on the table. Initially the rope is at rest. The general equation for length of rope hanging through the hole \n<math><mrow><mi>x</mi><mo>&#8289;</mo><mo>(</mo><mi>t</mi><mo>)</mo></mrow></math>\n is given by which if the following expressions?",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "<math><mrow><mrow><mi>x</mi><mo>&#8289;</mo><mo>(</mo><mi>t</mi><mo>)</mo></mrow><mo>=</mo><mrow><mrow><mi>A</mi><mo>&#8290;</mo><msup><mi>e</mi><mfrac><mrow><mi>&#947;</mi><mo>&#8290;</mo><mi>t</mi></mrow><mn>2</mn></mfrac></msup></mrow><mo>+</mo><mrow><mi>B</mi><mo>&#8290;</mo><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mrow><mi>&#947;</mi><mo>&#8290;</mo><mi>t</mi></mrow><mn>2</mn></mfrac></mrow></msup></mrow></mrow></mrow></math>\n where \n<math><mrow><mi>&#947;</mi><mo>=</mo><mfrac><mi>g</mi><mi>l</mi></mfrac></mrow></math>\n , \n<math><mrow><mi>A</mi><mo>=</mo><mi>B</mi><mo>=</mo><msub><mi>l</mi><mn>0</mn></msub></mrow></math>"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "<math><mrow><mrow><mi>x</mi><mo>&#8289;</mo><mo>(</mo><mi>t</mi><mo>)</mo></mrow><mo>=</mo><mrow><mrow><mi>A</mi><mo>&#8290;</mo><msup><mi>e</mi><mrow><mi>&#947;</mi><mo>&#8290;</mo><mi>t</mi></mrow></msup></mrow><mo>+</mo><mrow><mi>B</mi><mo>&#8290;</mo><msup><mi>e</mi><mrow><mrow><mo>-</mo><mi>&#947;</mi></mrow><mo>&#8290;</mo><mi>t</mi></mrow></msup></mrow></mrow></mrow></math>\n where \n<math><mrow><mi>&#947;</mi><mo>=</mo><mfrac><mi>g</mi><mi>l</mi></mfrac></mrow></math>\n , \n<math><mrow><mi>A</mi><mo>=</mo><mi>B</mi><mo>=</mo><msub><mi>l</mi><mn>0</mn></msub></mrow></math>"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "<math><mrow><mrow><mi>x</mi><mo>&#8289;</mo><mo>(</mo><mi>t</mi><mo>)</mo></mrow><mo>=</mo><mrow><mrow><mi>A</mi><mo>&#8290;</mo><msup><mi>e</mi><mrow><mi>&#947;</mi><mo>&#8290;</mo><mi>t</mi></mrow></msup></mrow><mo>+</mo><mrow><mi>B</mi><mo>&#8290;</mo><msup><mi>e</mi><mrow><mrow><mo>-</mo><mi>&#947;</mi></mrow><mo>&#8290;</mo><mi>t</mi></mrow></msup></mrow></mrow></mrow></math>\n where \n<math><mrow><msup><mi>&#947;</mi><mn>2</mn></msup><mo>=</mo><mfrac><mi>g</mi><mi>l</mi></mfrac></mrow></math>\n , \n<math><mrow><mi>A</mi><mo>=</mo><mi>B</mi><mo>=</mo><mfrac><msub><mi>l</mi><mn>0</mn></msub><mn>2</mn></mfrac></mrow></math>"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "<math><mrow><mrow><mi>x</mi><mo>&#8289;</mo><mo>(</mo><mi>t</mi><mo>)</mo></mrow><mo>=</mo><mrow><mrow><mi>A</mi><mo>&#8290;</mo><msup><mi>e</mi><mrow><mn>2</mn><mo>&#8290;</mo><mi>&#947;</mi><mo>&#8290;</mo><mi>t</mi></mrow></msup></mrow><mo>+</mo><mrow><mi>B</mi><mo>&#8290;</mo><msup><mi>e</mi><mrow><mrow><mo>-</mo><mn>2</mn></mrow><mo>&#8290;</mo><mi>&#947;</mi><mo>&#8290;</mo><mi>t</mi></mrow></msup></mrow></mrow></mrow></math>\n where \n<math><mrow><msup><mi>&#947;</mi><mn>2</mn></msup><mo>=</mo><mfrac><mi>g</mi><mi>l</mi></mfrac></mrow></math>\n , \n<math><mrow><mi>A</mi><mo>=</mo><mi>B</mi><mo>=</mo><mfrac><msub><mi>l</mi><mn>0</mn></msub><mn>2</mn></mfrac></mrow></math>"
+                   }
+               ],
+               "hint": "If the length of the rope hanging at time \n<math><mi>t</mi></math>\n be \n<math><mrow><mi>x</mi><mo>&#8289;</mo><mo>(</mo><mi>t</mi><mo>)</mo></mrow></math>\n, then we can have the following equation:\n\n<p align='center'><math><mrow><mrow><mi>m</mi><mo>&#8290;</mo><mover><mi>x</mi><mrow><mo>.</mo><mtext>&#8202;</mtext><mo>.</mo></mrow></mover></mrow><mo>=</mo><mrow><msub><mi>m</mi><mi>hang</mi></msub><mo>&#8290;</mo><mi>g</mi></mrow></mrow></math></p>\n\n\n<p align='center'><math><mrow><mrow><mtext>or</mtext><mo>&#8202;</mo><mo>&#8290;</mo><mi>m</mi><mo>&#8290;</mo><mover><mi>x</mi><mrow><mo>.</mo><mtext>&#8202;</mtext><mo>.</mo></mrow></mover></mrow><mo>=</mo><mfrac><mrow><mi>m</mi><mo>&#8290;</mo><mi>x</mi><mo>&#8290;</mo><mi>g</mi></mrow><mi>l</mi></mfrac></mrow></math></p>",
+               "explanation": "If the length of the rope hanging at time \n<math><mi>t</mi></math>\n be \n<math><mrow><mi>x</mi><mo>&#8289;</mo><mo>(</mo><mi>t</mi><mo>)</mo></mrow></math>\n, then we can have the following equation:\n\n<p align='center'><math><mrow><mrow><mi>m</mi><mo>&#8290;</mo><mover><mi>x</mi><mrow><mo>.</mo><mtext>&#8202;</mtext><mo>.</mo></mrow></mover></mrow><mo>=</mo><mrow><msub><mi>m</mi><mi>hang</mi></msub><mo>&#8290;</mo><mi>g</mi></mrow></mrow></math></p>\n\n\n<p align='center'><math><mrow><mrow><mtext>or</mtext><mo>&#8202;</mo><mo>&#8290;</mo><mi>m</mi><mo>&#8290;</mo><mover><mi>x</mi><mrow><mo>.</mo><mtext>&#8202;</mtext><mo>.</mo></mrow></mover></mrow><mo>=</mo><mfrac><mrow><mi>m</mi><mo>&#8290;</mo><mi>x</mi><mo>&#8290;</mo><mi>g</mi></mrow><mi>l</mi></mfrac></mrow></math></p>\n\nRecall from differential equations usage. The solution to differential equation of the form:\n\n<p align='center'><math><mrow><mover><mi>x</mi><mrow><mo>.</mo><mtext>&#8202;</mtext><mo>.</mo></mrow></mover><mo>=</mo><mfrac><mrow><mi>x</mi><mo>&#8290;</mo><mi>g</mi></mrow><mi>l</mi></mfrac></mrow></math></p>\n\n\n<p align='center'><math><mrow><mrow><mtext>is</mtext><mo>&#8202;</mo><mo>&#8290;</mo><mrow><mi>x</mi><mo>&#8289;</mo><mo>(</mo><mi>t</mi><mo>)</mo></mrow></mrow><mo>=</mo><mrow><mrow><mi>A</mi><mo>&#8290;</mo><msup><mi>e</mi><mrow><mi>k</mi><mo>&#8290;</mo><mi>t</mi></mrow></msup></mrow><mo>+</mo><mrow><mi>B</mi><mo>&#8290;</mo><msup><mi>e</mi><mrow><mrow><mo>-</mo><mi>k</mi></mrow><mo>&#8290;</mo><mi>t</mi></mrow></msup></mrow></mrow></mrow></math></p>"
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000du",
+           "object": {
+               "question": "Considering Newton&#39;s laws of motion:\\[\\]\n\n<math><mrow><mi>Statement</mi><mo>&#8290;</mo><mn>1</mn></mrow></math>\n: When viewed in an inertial reference frame, an object either remains at rest or continues to move at a constant velocity, unless acted upon by a force \\[\\]\n\n<math><mrow><mi>Statement</mi><mo>&#8290;</mo><mn>2</mn></mrow></math>\n: Newton&#39;s law gets modified in non-inertial frame of reference \\[\\]\n\n<math><mrow><mi>Statement</mi><mo>&#8290;</mo><mn>3</mn></mrow></math>\n: Newton&#39;s law makes use of pseudo-forces to get valid beyond classical limit \\[\\]\n\n<math><mrow><mi>Statement</mi><mo>&#8290;</mo><mn>4</mn></mrow></math>\n: Newton&#39;s law is not useful for quantum mechanical particle ",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "Statements 1,2 and 4 are correct"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "Statements 1,3 and 4  are correct"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "Statements 1,2 and 3 are correct"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "All statements are correct"
+                   }
+               ],
+               "hint": "Recall from basics of Newton&#39;s laws.",
+               "explanation": "Classical limit is the extent to which classical mechanics (aka Newtonian mechanics)is valid. Beyond the limit, Newton&#39;s laws are not useful as they cannot explain phenomena unless modified. Quantum mechanical particles have dual nature (particle and wave) and cross classical limit in terms of parameters. Hence, quantum mechanical particles do not obey Newton&#39;s laws."
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000ea",
+           "object": {
+               "question": "Refer figure C1-04.\n\n<figure align=\"left\" style=\"margin-left:5px;margin-right:15px;\"><img id=\"imageLoad\" folder=\"g0007\" file=\"C1-04.svg\" src=\"../../uploads/C1-04.svg\" alt=\"error: check folder and file names\" style=\"width:100%;min-width:100px;background-color:rgb(250,250,250);padding:7px;border-radius:7px;\"><figcaption style=\"font-family:Arial;font-size:11px;\">C1-04</figcaption></figure>\n\n A particle moves outward in a spiral as shown in the figure. It&#39;s trajectory is given by \n<math><mrow><mi>r</mi><mo>=</mo><mrow><mi>k</mi><mo>&#8290;</mo><mi>&#952;</mi></mrow></mrow></math>\n where \n<math><mi>k</mi></math>\n is a constant having value \n<math><mrow><mi>k</mi><mo>=</mo><mfrac><mn>1</mn><mo>&#960;</mo></mfrac></mrow></math>\n m/rad. \n<math><mi>&#952;</mi></math>\n increases according to the equation \n<p align='center'><math><mrow><mi>&#952;</mi><mo>=</mo><mfrac><mrow><mi>&#945;</mi><mo>&#8290;</mo><msup><mi>t</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac></mrow></math></p>\n \nThen for value of \n<math><mrow><mi>&#945;</mi><mo>=</mo><mn>3</mn></mrow></math>\n: \\[\\]\n\n<math><mrow><mstyle mathvariant=\"bold\"><mrow><mi>Statement</mi><mo>&#8290;</mo><mn>1</mn></mrow></mstyle></mrow></math>\n:  The radial acceleration is zero at \n<math><mrow><mi>&#952;</mi><mo>=</mo><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac></mrow></math>\n radian. \\[\\]\n\n<math><mrow><mstyle mathvariant=\"bold\"><mrow><mi>Statement</mi><mo>&#8290;</mo><mn>2</mn></mrow></mstyle></mrow></math>\n: Radial and angular accelerations have equal magnitude at \n<math><mrow><mn>2</mn><mo>&#8290;</mo><mi>&#960;</mi></mrow></math>\n radians.",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "Statement 1 is True and Statement 2 is False"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "Statement 1 and Statement 2 are True"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "Statement 1 and Statement 2 are False"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "Statement 1 is False and Statement 2 is True"
+                   }
+               ],
+               "hint": "We have \n<p align='center'><math><mrow><mi>r</mi><mo>=</mo><mrow><mi>k</mi><mo>&#8290;</mo><mi>&#952;</mi></mrow><mo>=</mo><mfrac><mrow><mi>&#945;</mi><mo>&#8290;</mo><msup><mi>t</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><mo>&#8290;</mo><mi>&#960;</mi></mrow></mfrac></mrow></math></p>\n\nSo, \n<p align='center'><math><mrow><mover><mi>r</mi><mtext>.</mtext></mover><mo>=</mo><mrow><mfrac><mrow><mi>&#945;</mi><mo>&#8290;</mo><mi>t</mi></mrow><mi>&#960;</mi></mfrac><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>and</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mover><mi>&#952;</mi><mtext>.</mtext></mover></mrow><mo>=</mo><mrow><mi>&#945;</mi><mo>&#8290;</mo><mi>t</mi></mrow></mrow></math></p>\n\nWe know about translational + circular motion (or spiral motion) that it has two components - the radial directed along \n<math><mover><mi>r</mi><mo>^</mo></mover></math>\n and the angular directed along \n<math><mover><mi>&#952;</mi><mo>^</mo></mover></math>\n.",
+               "explanation": "We have \n<p align='center'><math><mrow><mi>r</mi><mo>=</mo><mrow><mi>k</mi><mo>&#8290;</mo><mi>&#952;</mi></mrow><mo>=</mo><mfrac><mrow><mi>&#945;</mi><mo>&#8290;</mo><msup><mi>t</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><mo>&#8290;</mo><mi>&#960;</mi></mrow></mfrac></mrow></math></p>\n\nSo, \n<p align='center'><math><mrow><mover><mi>r</mi><mtext>.</mtext></mover><mo>=</mo><mrow><mfrac><mrow><mi>&#945;</mi><mo>&#8290;</mo><mi>t</mi></mrow><mi>&#960;</mi></mfrac><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>and</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mover><mi>&#952;</mi><mtext>.</mtext></mover></mrow><mo>=</mo><mrow><mi>&#945;</mi><mo>&#8290;</mo><mi>t</mi></mrow></mrow></math></p>\n\n\n<p align='center'><math><mrow><mover><mi>r</mi><mrow><mo>.</mo><mtext>&#8202;</mtext><mo>.</mo></mrow></mover><mo>=</mo><mrow><mfrac><mi>&#945;</mi><mi>&#960;</mi></mfrac><mo>&#8290;</mo><mtext>&#8202;</mtext><mi>and</mi><mo>&#8290;</mo><mtext>&#8202;</mtext><mover><mi>&#952;</mi><mrow><mo>.</mo><mtext>&#8202;</mtext><mo>.</mo></mrow></mover></mrow><mo>=</mo><mi>&#945;</mi></mrow></math></p>\n\nWe know about translational + circular motion (or spiral motion) that:\n\n<p align='center'><math><mrow><mrow><mrow><mstyle mathvariant=\"bold\"><mi>a</mi></mstyle></mrow><mo>&#8289;</mo><mrow><mo>(</mo><mi>t</mi><mo>)</mo></mrow></mrow><mo>=</mo><mrow><mrow><mrow><mo>(</mo><mrow><mover><mi>r</mi><mrow><mo>.</mo><mtext>&#8202;</mtext><mo>.</mo></mrow></mover><mo>-</mo><mrow><mi>r</mi><mo>&#8290;</mo><msup><mover><mi>&#952;</mi><mtext>.</mtext></mover><mn>2</mn></msup></mrow></mrow><mo>)</mo></mrow><mo>&#8290;</mo><mover><mi>r</mi><mo>^</mo></mover></mrow><mo>+</mo><mrow><mrow><mo>(</mo><mrow><mrow><mi>r</mi><mo>&#8290;</mo><mover><mi>&#952;</mi><mrow><mo>.</mo><mtext>&#8202;</mtext><mo>.</mo></mrow></mover></mrow><mo>+</mo><mrow><mn>2</mn><mo>&#8290;</mo><mover><mi>r</mi><mtext>.</mtext></mover><mo>&#8290;</mo><mover><mi>&#952;</mi><mtext>.</mtext></mover></mrow></mrow><mo>)</mo></mrow><mo>&#8290;</mo><mover><mi>&#952;</mi><mo>^</mo></mover></mrow></mrow></mrow></math></p>\n\nOn simplifying the expression for \n<math><mrow><mstyle mathvariant=\"bold\"><mi>a</mi></mstyle></mrow></math>\n, we get:\n\n<p align='center'><math><mrow><mrow><mstyle mathvariant=\"bold\"><mi>a</mi></mstyle></mrow><mo>=</mo><mrow><mrow><msub><mi>a</mi><mi>r</mi></msub><mo>&#8290;</mo><mover><mi>r</mi><mo>^</mo></mover></mrow><mo>+</mo><mrow><msub><mi>a</mi><mi>&#952;</mi></msub><mo>&#8290;</mo><mover><mi>&#952;</mi><mo>^</mo></mover></mrow></mrow></mrow></math></p>\n\n\n<p align='center'><math><mrow><mrow><mstyle mathvariant=\"bold\"><mi>a</mi></mstyle></mrow><mo>=</mo><mrow><mfrac><mi>&#945;</mi><mi>&#960;</mi></mfrac><mo>&#8290;</mo><mrow><mo>(</mo><mrow><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>-</mo><mrow><mn>2</mn><mo>&#8290;</mo><msup><mi>&#952;</mi><mn>2</mn></msup></mrow></mrow><mo>)</mo></mrow><mo>&#8290;</mo><mover><mi>r</mi><mo>^</mo></mover></mrow><mo>+</mo><mrow><mrow><mo>(</mo><mrow><mn>5</mn><mo>&#8290;</mo><mi>&#952;</mi></mrow><mo>)</mo></mrow><mo>&#8290;</mo><mover><mi>&#952;</mi><mo>^</mo></mover></mrow></mrow><mo>)</mo></mrow></mrow></mrow></math></p>\n\nFrom here, we can find the condition where \n<math><msub><mi>a</mi><mi>r</mi></msub></math>\n will be equal with \n<math><msub><mi>a</mi><mi>&#952;</mi></msub></math>\n. Please note that there are two such conditions (or values of \n<math><mi>&#952;</mi></math>\n)"
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "0007f",
+           "object": {
+               "question": "A super car can accelerate uniformly to \n<math><mn>72</mn></math>\n km/hour in \n<math><mn>6</mn></math>\n seconds. It&#39;s maximum braking limit cannot exceed \n<math><mfrac><mi>g</mi><mn>3</mn></mfrac></math>\n. What is the minimum time required to cover \n<math><mn>10</mn></math>\n km, assuming that it starts from rest and comes to rest just after covering the distance? (Take \n<math><mrow><mi>g</mi><mo>=</mo><mrow><mn>10</mn><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mi>m</mi><mo>/</mo><msup><mi>s</mi><mn>2</mn></msup></mrow></mrow></mrow></math>\n)",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "<math><mn>109.5</mn></math>\n seconds"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "<math><mn>77.5</mn></math>\n seconds"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "<math><mn>61.9</mn></math>\n seconds"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "<math><mn>154.9</mn></math>\n seconds"
+                   }
+               ],
+               "hint": "Using a graph can simplify the problem. Time is minimum if the car accelerates to a maximum speed and then decelerate to a complete stop without having a uniform motion.",
+               "explanation": "Consider a car that can accelerate upto \n<math><mrow><mn>100</mn><mo>&#8290;</mo><mi>kmph</mi></mrow></math>\n in \n<math><mn>10</mn></math>\nseconds. So, it has uniform acceleration of \n<math><mn>2.8</mn></math>\n\n<math><mrow><mtext>m</mtext><mo>/</mo><msup><mtext>s</mtext><mn>2</mn></msup></mrow></math>\n.\nConsider the car to have a braking limit of \n<math><mrow><mn>0.5</mn><mi>g</mi></mrow></math>\n i.e \n<math><mn>5</mn></math>\n\n<math><mrow><mtext>m</mtext><mo>/</mo><msup><mtext>s</mtext><mn>2</mn></msup></mrow></math>\n.\nTo cover a distance, say 10 km, in minimum amount of time with the condition that it starts at rest and ends at rest, the car needs to first accelerate for a certain amount of time \n<math><msub><mi>t</mi><mn>1</mn></msub></math>\n seconds and then decelerate to rest for certain time \n<math><msub><mi>t</mi><mn>2</mn></msub></math>\n seconds. The car must not have any constant velocity motion in order to ensure minimum time. \n<br>\nDuring acceleration, let us assume that the car covers a distance of \n<math><msub><mi>s</mi><mn>1</mn></msub></math>\n metres and during deceleration, let the distance covered be \n<math><msub><mi>s</mi><mn>2</mn></msub></math>\n metres. \nWe have \n<math><mrow><mrow><msub><mi>s</mi><mn>1</mn></msub><mo>+</mo><msub><mi>s</mi><mn>2</mn></msub></mrow><mo>=</mo><mrow><mi>total</mi><mo>&#8290;</mo><mi>distance</mi></mrow><mo>=</mo><mrow><mn>10</mn><mo>&#8290;</mo><mi>km</mi></mrow></mrow></math>\n.\nApplying equations of motion during acceleration, we have: \n\n<p align='center'><math><mrow><mrow><mi>maximum</mi><mo>&#8290;</mo><mi>speed</mi></mrow><mo>=</mo><mi>v</mi><mo>=</mo><mrow><mn>2.8</mn><msub><mi>t</mi><mn>1</mn></msub><mo>&#8290;</mo><mi>&#8195;</mi><mo>&#8290;</mo><mi>and</mi><mo>&#8290;</mo><mi>&#8195;</mi><mo>&#8290;</mo><msub><mi>s</mi><mn>1</mn></msub></mrow><mo>=</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mn>2.8</mn><msubsup><mi>t</mi><mn>1</mn><mn>2</mn></msubsup><mtext>.</mtext></mrow></mrow></mrow></math></p>\n\nDuring deceleration we have \n\n<p align='center'><math><mrow><mrow><mi>final</mi><mo>&#8290;</mo><mi>speed</mi></mrow><mo>=</mo><mn>0</mn><mo>=</mo><mrow><mi>v</mi><mo>-</mo><mrow><mn>5</mn><mo>&#8290;</mo><msub><mi>t</mi><mn>2</mn></msub><mo>&#8290;</mo><mi>&#8195;</mi><mo>&#8290;</mo><mi>and</mi><mo>&#8290;</mo><mi>&#8195;</mi><mo>&#8290;</mo><msub><mi>s</mi><mn>2</mn></msub></mrow></mrow><mo>=</mo><mrow><mrow><mrow><mn>2.8</mn><msub><mi>t</mi><mn>1</mn></msub><mo>&#8290;</mo><msub><mi>t</mi><mn>2</mn></msub></mrow><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><mo>&#8290;</mo><mtext>&#8202;</mtext><mrow><mn>5</mn><mo>&#8290;</mo><msubsup><mi>t</mi><mn>2</mn><mn>2</mn></msubsup><mtext>.</mtext></mrow></mrow></mrow></math></p>\n\nEliminating \n<math><mi>v</mi></math>\n we get relationship between \n<math><msub><mi>t</mi><mn>1</mn></msub></math>\n and \n<math><msub><mi>t</mi><mn>2</mn></msub></math>\n\n \n<p align='center'><math><mrow><mrow><mn>2.8</mn><msub><mi>t</mi><mn>1</mn></msub></mrow><mo>=</mo><mrow><mn>5</mn><mo>&#8290;</mo><msub><mi>t</mi><mn>2</mn></msub></mrow></mrow></math></p>\n\nand adding \n<math><msub><mi>s</mi><mn>1</mn></msub></math>\n and \n<math><msub><mi>s</mi><mn>2</mn></msub></math>\n we have\n\n<p align='center'><math><mrow><mrow><mn>10</mn><mo>&#8290;</mo><mi>km</mi></mrow><mo>=</mo><mrow><mrow><mn>2.8</mn><msub><mi>t</mi><mn>1</mn></msub><mo>&#8290;</mo><msub><mi>t</mi><mn>2</mn></msub></mrow><mo>+</mo><mrow><mn>1.4</mn><msubsup><mi>t</mi><mn>1</mn><mn>2</mn></msubsup></mrow><mo>-</mo><mrow><mn>2.5</mn><msubsup><mi>t</mi><mn>2</mn><mn>2</mn></msubsup></mrow></mrow></mrow></math></p>\n\nUsing last two equations we can obtain \n<math><msub><mi>t</mi><mn>1</mn></msub></math>\n and \n<math><msub><mi>t</mi><mn>2</mn></msub></math>\n. Total time is \n<math><mrow><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>+</mo><msub><mi>t</mi><mn>2</mn></msub></mrow><mo>=</mo><mn>105.6</mn></mrow></math>\nseconds."
+           }
+       }
+   ]
+}
+}

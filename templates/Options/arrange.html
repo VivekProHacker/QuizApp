@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+<div class="options" style="padding-bottom:5px;" >
+
+                    <div ng-repeat="option in filteredQuestions[0].object.options" class="quesOptions" >
+                     
+        <div id="my{{option.Id}}"  class="arrangeOption" ng-click=" isFlag()? selectFromSwap(option.Id) :  selectToSwap(option.Id)" >
+
+        
+<span  math="{{filteredQuestions[0].object.options[swapOptions[option.Id-1]-1].statement}}" >        	
+
+        </div>    
+
+
+
+                    </div>
+                                   </div>
+
+	<script type="text/javascript">
+
+</script>
+</body>
+</html>
+
+

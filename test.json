@@ -1,0 +1,105 @@
+{
+
+    "quizdata": {
+   "quiztitle": "A Test Quiz with FillIn Blanks and Graphics",
+   "instruction": "This quiz is designed to test the quiz app.",
+   "elements": [
+       {
+           "ref": "000f9",
+           "type": "fillIn",
+           "object": {
+               "question": "Fill in the blank and click lock.",
+               "statement": "'<div id=\"divFillInBlank\">(a) A car travelling at speed \n<math><mn>16</mn></math>\n m/s will travel a distance of <input id=\"inputBlankNumber\" type=\"number\"  name=\"distance\" value=\"\" ng-model=\"questions[currentPage-1].object.distance\" onkeypress=\"expand(this);return isNumber(event);\"> meters in \n<math><mn>12</mn></math>\n seconds.\n<br><br>\n(b) <input id=\"inputBlankNumber\" type=\"number\"  name=\"fibo\" value=\"\" ng-model=\"questions[currentPage-1].object.fibo\" onkeypress=\"expand(this);return isNumber(event);\"> is a fibonacci number between 10 and 50.\n<br><br>\n(c) A biker rides at a speed of \n<math><mn>10</mn></math>\n km/hr travelling a distance of \n<math><mn>11</mn></math>\n km. Time taken by the biker to cover the distance is <input id=\"inputBlankNumber\" type=\"number\"  name=\"time\" value=\"\" ng-model=\"questions[currentPage-1].object.time\" onkeypress=\"expand(this);return isNumber(event);\"> minutes\n<br><br>\n(d) Chemical formula of ethyl alcohol is <input id=\"inputBlankText\" type=\"text\" name=\"formula\" value=\"\" ng-model=\"questions[currentPage-1].object.formula\" onkeypress=\"expand(this)\">.</div>'",
+               "instruction": "To enter a chemical formula like \n<math><mrow><msub><mtext>A</mtext><mn>2</mn></msub><msub><mtext>BxCy</mtext><mn>3</mn></msub></mrow></math>\n enter A2BxCy3 .",
+               "hint": "Test hint",
+               "explanation": "test explaination"
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000fn",
+           "object": {
+               "question": "स्वतंत्रता संग्राम के प्रसिद्ध लाल-बाल-पाल में से लाल का पूरा नाम क्या है?",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "लाल नारायण पाण्डेय "
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "लाल बहादुर शास्त्री"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "लालू प्रसाद यादव "
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "लाला लाजपत राय "
+                   }
+               ],
+               "hint": "No hint available.",
+               "explanation": "No explanation available."
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "000cl",
+           "object": {
+               "question": "Which of the following graphs demonstrate a sine function?",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "<figure align=\"center\" style=\"margin-left:5px;margin-right:15px;\"><img src=http://203.18.51.20:5984/graphics/g0001/exp6.svg alt=\"error: check folder and file names\" style=\"width:100%;min-width:320px;background-color:rgb(250,250,250);padding:7px;border-radius:7px;\"></figure>"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "<figure align=\"center\" style=\"margin-left:5px;margin-right:15px;\"><img src=http://203.18.51.20:5984/graphics/g0001/sin5.svg alt=\"error: check folder and file names\" style=\"width:100%;min-width:320px;background-color:rgb(250,250,250);padding:7px;border-radius:7px;\"></figure>"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "<figure align=\"center\" style=\"margin-left:5px;margin-right:15px;\"><img src=http://203.18.51.20:5984/graphics/g0001/tan3.svg alt=\"error: check folder and file names\" style=\"width:100%;min-width:320px;background-color:rgb(250,250,250);padding:7px;border-radius:7px;\"></figure>"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "<figure align=\"center\" style=\"margin-left:5px;margin-right:15px;\"><img src=http://203.18.51.20:5984/graphics/g0001/tanh3.svg alt=\"error: check folder and file names\" style=\"width:100%;min-width:320px;background-color:rgb(250,250,250);padding:7px;border-radius:7px;\"></figure>"
+                   }
+               ],
+               "hint": "Sine function is an oscillatory function.",
+               "explanation": "Sine function is an oscillatory function with constant amplitude."
+           }
+       },
+       {
+           "type": "mcq",
+           "ref": "0009u",
+           "object": {
+               "question": "Let \n<math><mrow><mrow><mi>p</mi><mo>&#8289;</mo><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mrow><mrow><msub><mi>a</mi><mn>0</mn></msub><mo>&#8290;</mo><msup><mi>x</mi><mi>n</mi></msup></mrow><mo>+</mo><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>&#8290;</mo><msup><mi>x</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow><mo>+</mo><mrow><mo>&#183;</mo><mo>&#183;</mo><mo>&#183;</mo></mrow><mo>+</mo><mrow><msub><mi>a</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub><mo>&#8290;</mo><mi>x</mi></mrow><mo>+</mo><msub><mi>a</mi><mi>n</mi></msub></mrow></mrow></math>\n. Then,\n<math><mrow><mrow><mi>p</mi><mo>&#8289;</mo><mo>(</mo><mi>A</mi><mo>)</mo></mrow><mo>=</mo><mrow><mrow><msub><mi>a</mi><mn>0</mn></msub><mo>&#8290;</mo><msup><mi>A</mi><mi>n</mi></msup></mrow><mo>+</mo><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>&#8290;</mo><msup><mi>A</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow><mo>+</mo><mrow><mo>&#183;</mo><mo>&#183;</mo><mo>&#183;</mo></mrow><mo>+</mo><mrow><msub><mi>a</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub><mo>&#8290;</mo><mi>A</mi></mrow><mo>+</mo><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>&#8290;</mo><mi>I</mi></mrow></mrow></mrow></math>\n, where A is a square matrix.  Suppose, \n<math><mrow><mi>D</mi><mo>=</mo><mrow><mo>[</mo><mtable><mtr><mtd><mn>1</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>3</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mrow><mo>-</mo><mn>1</mn></mrow></mtd></mtr></mtable><mo>]</mo></mrow></mrow></math>\n and \n<math><mrow><mrow><mi>q</mi><mo>&#8289;</mo><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mrow><mrow><mn>5</mn><mo>&#8290;</mo><msup><mi>x</mi><mn>3</mn></msup></mrow><mo>-</mo><mrow><mn>4</mn><mo>&#8290;</mo><msup><mi>x</mi><mn>2</mn></msup></mrow><mo>+</mo><mrow><mn>1</mn><mo>&#8290;</mo><mi>x</mi></mrow><mo>+</mo><mn>25</mn></mrow></mrow></math>\n. Then, Trace of \n<math><mrow><mi>q</mi><mo>&#8289;</mo><mo>(</mo><mi>D</mi><mo>)</mo></mrow></math>\n is:",
+               "options": [
+                   {
+                       "Id": 1,
+                       "statement": "<math><mn>3</mn></math>"
+                   },
+                   {
+                       "Id": 2,
+                       "statement": "<math><mn>119</mn></math>"
+                   },
+                   {
+                       "Id": 3,
+                       "statement": "<math><mn>27</mn></math>"
+                   },
+                   {
+                       "Id": 4,
+                       "statement": "<math><mn>127</mn></math>"
+                   },
+                   {
+                       "Id": 5,
+                       "statement": " \n<math><mn>3</mn></math>\n 1"
+                   }
+               ],
+               "hint": "If \n<math><mrow><mi>P</mi><mo>=</mo><mrow><mo>[</mo><mtable><mtr><mtd><msub><mi>p</mi><mn>1</mn></msub></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><msub><mi>p</mi><mn>2</mn></msub></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><msub><mi>p</mi><mn>3</mn></msub></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><msub><mi>p</mi><mn>4</mn></msub></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><msub><mi>p</mi><mn>5</mn></msub></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><msub><mi>p</mi><mn>6</mn></msub></mtd></mtr></mtable><mo>]</mo></mrow></mrow></math>\n, \\[\\]then \n<math><mrow><msup><mi>P</mi><mi>k</mi></msup><mo>=</mo><mrow><mo>[</mo><mtable><mtr><mtd><msubsup><mi>p</mi><mn>1</mn><mi>k</mi></msubsup></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><msubsup><mi>p</mi><mn>2</mn><mi>k</mi></msubsup></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><msubsup><mi>p</mi><mn>3</mn><mi>k</mi></msubsup></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><msubsup><mi>p</mi><mn>4</mn><mi>k</mi></msubsup></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><msubsup><mi>p</mi><mn>5</mn><mi>k</mi></msubsup></mtd><mtd><mn>0</mn></mtd></mtr><mtr><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn></mtd><mtd><msubsup><mi>p</mi><mn>6</mn><mi>k</mi></msubsup></mtd></mtr></mtable><mo>]</mo></mrow></mrow></math>",
+               "explanation": "<math><mrow><mrow><mi>tr</mi><mo>&#8289;</mo><mo>(</mo><mrow><mi>A</mi><mo>+</mo><mi>B</mi></mrow><mo>)</mo></mrow><mo>=</mo><mrow><mrow><mi>tr</mi><mo>&#8289;</mo><mo>(</mo><mi>A</mi><mo>)</mo></mrow><mo>+</mo><mrow><mi>tr</mi><mo>&#8289;</mo><mo>(</mo><mi>B</mi><mo>)</mo></mrow></mrow></mrow></math>\n\\[\\] \n<math><mrow><mrow><mi>tr</mi><mo>&#8289;</mo><mo>(</mo><mi>kA</mi><mo>)</mo></mrow><mo>=</mo><mrow><mi>k</mi><mo>&#183;</mo><mrow><mi>tr</mi><mo>&#8289;</mo><mo>(</mo><mi>A</mi><mo>)</mo></mrow></mrow></mrow></math>\n\\[\\]Therefore,\n<math><mrow><mi>tr</mi><mo>&#8289;</mo><mo>(</mo><mrow><mrow><mi>p</mi><mo>&#183;</mo><msup><mi>A</mi><mn>3</mn></msup></mrow><mo>+</mo><mrow><mi>q</mi><mo>&#183;</mo><msup><mi>A</mi><mn>2</mn></msup></mrow><mo>+</mo><mrow><mi>r</mi><mo>&#183;</mo><mi>A</mi></mrow><mo>+</mo><mrow><mi>s</mi><mo>&#183;</mo><mi>I</mi></mrow></mrow><mo>)</mo></mrow></math>\n)=\n<math><mrow><mrow><mi>p</mi><mo>&#183;</mo><mrow><mi>tr</mi><mo>&#8289;</mo><mo>(</mo><msup><mi>A</mi><mn>3</mn></msup><mo>)</mo></mrow></mrow><mo>+</mo><mrow><mi>q</mi><mo>&#183;</mo><mrow><mi>tr</mi><mo>&#8289;</mo><mo>(</mo><msup><mi>A</mi><mn>2</mn></msup><mo>)</mo></mrow></mrow><mo>+</mo><mrow><mi>r</mi><mo>&#183;</mo><mrow><mi>tr</mi><mo>&#8289;</mo><mo>(</mo><mi>A</mi><mo>)</mo></mrow></mrow><mo>+</mo><mrow><mi>s</mi><mo>&#183;</mo><mrow><mi>tr</mi><mo>&#8289;</mo><mo>(</mo><mi>I</mi><mo>)</mo></mrow></mrow></mrow></math>"
+           }
+       }
+   ]
+}
+}

@@ -1,0 +1,277 @@
+
+<br>
+<div class="row" >
+
+<div class="col-md-20 col-lg-20 col-sm-20 col-xs-20" style="margin-top:1%">
+  <div class=" col-sm-20  col-md-20 col-lg-6 " style="text-align: center; "   >
+
+
+
+<div id="instruction" style="display:none;">
+      <div class="panel panel-primary"  style="border-bottom-right-radius:0px;border-bottom-left-radius:0px; border:0px ; ">
+    <div class="panel-heading">
+      <h3 class="panel-title center"><b>Instruction </b>
+    </div>
+    
+  </div>
+    <div style="padding:2%">
+    
+    <br>   
+                <span math="{{quiz.instruction}}" >
+
+    </div>
+      
+
+    </div>
+</div>
+
+
+<div class="col-sm-20  col-md-20 col-lg-8 " >
+<div class="panel panel-primary" >
+            <div class="panel-heading"  >
+              <h1 class="panel-title center"><a href="" ng-click="timerToggle()"><div style="float:left;display:inline-block">{{hh}}:{{mm}}:{{ss}} </div></a><b>  {{quiz.quiztitle}}  </b></h1>
+            </div>
+<!-- Question numbers block willl start here..  -->
+
+<div class="row" style="background-color:#333333; padding-top: 10px; " >
+<div class="col-md-20 col-sm-20  col-lg-20">
+
+<div class="col-md-2 col-sm-2 col-xs-2 review"   ng-repeat="question in TwentyQuestions">
+           <a >
+           <div style=" background-color:{{ currentQ($index+1 + offset)? 'var(--IcyBlue)':checkReview($index + 1 + offset)  ? 'var(--peechyOrange)': lock[$index+1 + offset-1] ? 'var(--pastleAppleGreen)':'var(--refreshingWhite)' }} ; box-shadow:{{ currentQ($index+1 + offset)? ' 0px 0px 0px 4px var(--IcyBlue) inset':checkReview($index + 1 +offset) && lock[$index+1 + offset-1]  ? ' 0px 0px 0px 4px var(--pastleAppleGreen) inset': checkReview($index + 1 +offset) ? ' 0px 0px 0px 4px var(--peechyOrange) inset' : lock[$index+1 + offset-1] ? ' 0px 0px 0px 4px #DEE8CF inset':' 0px 0px 0px 4px var(--refreshingWhite) inset' }} ; margin-left:4px; border-radius: 5px;
+    text-align: center;" ng-click="getStartTime($index + 1 +offset);getEndTime(currentPage);getTotalTime(currentPage);goTo($index + 1 +offset );hideAll();resetAll()"   ><b>{{$index + 1+offset}} </b>
+           </div>
+           </a>
+        
+        </div>
+    
+        <br><br>
+</div>
+
+</div>
+
+
+<div class="row" style="padding-top:2%; background-color:#333333">
+<div class="col-md-20 col-sm-20 col-xs-20" > 
+
+
+<div class="col-md-2 col-sm-2 col-xs-2 col-lg-2  " style="margin-left:1% ;"  >
+
+<a href='' data-toggle="tooltip" data-placement="top" title="Previous 20 Questions" ><div class="myBox" style="border-radius:6px;" ng-click="prevTwentyQuestions();hideAll();resetAll()"> <span class="icon  icon-prev20 myIcons "  ></span></div></a>
+</div>
+
+<div class="col-md-2 col-sm-2 col-xs-2 col-lg-2" style="margin-left:2.5%" >
+<a href='' data-toggle="tooltip" data-placement="top" title="Previous Question" ><div class="myBox" style="border-radius:6px;" ng-click="initQuestions*20 +1 == currentPage ?goToLast() :onLeft(currentPage,currentPage-1);hideAll();resetAll()"> <span class="icon icon-PREV myIcons "   ></span>
+
+</div></a>
+</div>
+<div class="col-md-2 col-sm-2 col-xs-2 col-lg-2" style="margin-left:2.5%" >
+
+<a href='' data-toggle="tooltip" data-placement="top" title="Instruction" ><div class="myBox" style="border-radius:6px;" ng-click="ShowDiv2()" > <span   class="icon icon-INFO myIcons" ></span></div></a>
+</div>
+<div class="col-md-2 col-sm-2 col-xs-2 col-lg-2" style="margin-left:2.5%" >
+<a href="" data-toggle="tooltip" data-placement="top" title="Hint"  ><div class="myBox" style="border-radius:6px;" ng-click="setHintUsed(currentPage);ShowDiv(currentPage);" > <span  id="myHint" class="{{hintUsed[currentPage-1]==0 ? 'icon icon-HINT myIcons' : 'icon icon-HINTCLICKED myIcons' }}"   ></span></div>  </a>
+</div>
+<div class="col-md-2 col-sm-2 col-xs-2 col-lg-2" style="margin-left:2.5%" >
+<a href="" data-toggle="tooltip" data-placement="top" title="Explanation" ><div class="myBox" style="border-radius:6px;" ng-click="ShowDiv1(currentPage)" ><span id="myExp"  class="{{hintUsed[currentPage-1]==2 ? 'icon icon-EXPLAINCLICKED myIcons' : 'icon icon-EXPLAIN myIcons' }}" 
+></span></div></a>
+</div>
+
+<div class="col-md-2 col-sm-2 col-xs-2 col-lg-2" style="margin-left:2.5%"  >
+<a href="" data-toggle="tooltip" data-placement="top" title="Mark for review" > <div class="myBox " style="border-radius:6px;" ng-click="doReview(currentPage)";><span   style=" color:{{  checkReview((currentPage)) ? 'var(--peechyOrange)': 'white' }}; "   class="icon icon-FLAG myIcons" >
+  
+</span></div> </a>
+</div>
+<div class="col-md-2 col-sm-2 col-xs-2 col-lg-2"  style="margin-left:2.5%">
+
+<!--    if the last question of the twenty question set is current question then call nextTwentyQuestion else onRight()      -->
+<a href="" data-toggle="tooltip" data-placement="top" title="Next Question" ><div class="myBox" style="border-radius:6px;" ng-click="initQuestions*20 +20 == currentPage ?nextTwentyQuestions(): onRight(currentPage,currentPage+1);hideAll();;resetAll()" > <span  class="icon icon-NEXT myIcons" ></span></div></a>
+</div>
+
+<div class="col-md-2 col-sm-2 col-xs-2 col-lg-2" style="margin-left:2.5%" >
+<a href="" data-toggle="tooltip" data-placement="top" title="Next 20 Questions" >
+<div class="myBox" style="border-radius:6px;" ng-click="nextTwentyQuestions();hideAll();resetAll()"> <span class="icon icon-next20 myIcons "  ></span></div></a>
+</div>
+
+
+
+
+
+</div>
+
+<!--  Question main block  -->
+
+<div class="row" >
+<form name="fill" id="fill">
+<div class="col-md-20 col-sm-20 col-xs-20"  > 
+<div ng-show="mode=='review'">
+
+              
+        <div  >
+       
+              
+  
+       
+        
+            <div class="question"  >
+                <div class="qblock" style="border-radius:8px;">
+                <div style="padding:2%;">
+                <span style="margin:1%" math="{{filteredQuestions[0].object.question}}"></span> 
+                </div>
+                <a>
+                <div style="margin-left: 92%" ng-show="getType(currentPage)!=0"  ng-click="Lock()" >
+                
+           
+                <span style="font-size:30px ; color:white"  class="{{ lock[currentPage-1]==true ? 'icon icon-lock2' :'icon icon-lock1'}}">
+                </span>
+                </div >
+                </a>  
+              
+                </div>
+             
+                <div ng-include src="quizOptions[getType(currentPage)].url"></div>
+             
+
+
+            </div>
+
+<br>
+
+<div class="row" >
+<div class="col-md-20 col-sm-20 col-xs-20" style=" text-align: center;" >
+<div style="float:left;display:inline-block; width:30%;height:40px">
+   <a href="" style="float:left;"><span class=" icon icon-SAVE footer-icon " style="color:rgb(81,125,142);background-color:white;border-radius:6px;"  ></span>  
+</a></div>
+<div style="display:inline-block; width:30%;height:40px">
+     <a href="" ><span class=" icon icon-Exit footer-icon " style="color:rgb(81,125,142);background-color:white;border-radius:6px;"  ></span>  
+     </a></div>
+<div style="float:right;display:inline-block; width:30%;height:40px">    
+    <a  href="" style="float:right" data-toggle='modal'  data-target='#submit' ng-click="getSummary()">  <span class="icon icon-SUBMIT footer-icon " style="color:rgb(81,125,142) ;background-color:white;border-radius:6px;"   ></span> </a>   
+</div> 
+</div>
+
+</div>
+        </div>
+        <hr />
+    </div>
+
+
+
+
+
+</div>
+</form>
+</div>
+
+<br>
+<!--   Question statement and option block come here  -->
+ <!--Form Modal for Login Starts-->
+        <div class="modal fade" id="submit"  role="dialog">
+            <div class="modal-dialog">
+                <!--Modal Content-->
+                <div class="container-fluid form-container modal-content" >
+                    <!--            Modal Header-->
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h1 class="modal-title" style="text-align:center"><b> Summary </b></h1>
+                    </div>
+                  <br><br>
+
+                  <div style="margin:10px">
+                   <h2> Number of questions attempted :<h2> &nbsp;&nbsp;&nbsp; <b> {{summary[1]}}</b>
+                   <br><br>
+                <h2> Number of questions skipped :<h2> &nbsp;&nbsp;&nbsp; <b> {{summary[0]}}</b>
+
+                <br><br>
+
+                 <h2> Time Taken :<h2> &nbsp;&nbsp;&nbsp; <b> {{timeTakenToComplete}}</b>
+
+                 <br><br>
+                 <br>
+                <input type="button" class="btn btn-success" data-dismiss="modal" id="myHint"  value="Submit" ng-click="onFinish(currentPage);getResponse();window.location.href='#/submit';"  onclick="window.location.href='#/submit'" style="float:left" >
+                 <input type="button" class="btn btn-danger" id="myHint" data-dismiss="modal" value="Cancel" style="float:right" >
+
+
+                 <br>  <br>
+  <br>                 
+
+
+                  </div>
+                  
+
+                    <!--          Modal Body And  Main Form Container-->
+                
+                </div>
+            </div>
+        </div>
+
+    
+        <!--        Form Modal for Login Ends -->
+
+
+
+
+</div>
+
+
+
+
+                      </div>
+                      </div>
+
+
+
+
+<div class="col-sm-20  col-md-20 col-lg-6 " style="text-align: center; " >
+  
+<div  id = "hints" style="display:none " >
+ <div class="panel panel-primary"  style="border-bottom-right-radius:0px;border-bottom-left-radius:0px; border:0px ; ">
+    <div class="panel-heading">
+      <h3 class="panel-title center"><b>Hint</b>
+    </div>
+    
+  </div>
+  <div style="padding:2%" ng-show="mode=='review'" ng-repeat="question in filteredQuestions">
+
+<br>              
+                  
+       
+          <span math="{{ question.object.hint }}"></span>
+                  
+                        
+  </div>
+
+
+
+
+
+</div>
+
+<br>
+<div id = "explanation" style="display:none" >
+<div class="panel panel-primary"  style="border-bottom-right-radius:0px;border-bottom-left-radius:0px; border:0px ; ">
+    <div class="panel-heading">
+      <h3 class="panel-title center"><b>Explanation</b>
+    </div>
+    
+  </div>
+
+  <div style="padding:2%" ng-show="mode=='review'" ng-repeat="question in filteredQuestions">
+
+<br>                  
+                  
+       
+          <span math="{{ question.object.explanation }}"></span>
+                  <!--
+                         
+                         <span math="{{ question.object.hint }}"></span>
+                         <br><br><br><br>
+                           -->
+                        
+  </div>
+</div>
+  
+</div>
+
+</div> 
+</div>

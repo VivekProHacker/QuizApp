@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html ng-app="quizApp" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Quiz Application</title>
+<!--
+<meta charset="utf-8">
+-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+  
+
+<!--
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+-->
+    <link href="css/style.css" rel="stylesheet" />
+    
+    <script src="js/pace.min.js"></script>
+      <link href="css/default.css" rel="stylesheet" />
+     
+
+<!--  Material design -->
+
+
+
+    <link rel="stylesheet" href="GLYPHICON/style.css">
+    <!--[if lt IE 8]><!-->
+    
+<!-- Custom Fonts -->
+  
+
+  
+
+
+<!--
+    
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+        <!-- jQuery -->
+    <script src="jss/jquery-2.2.4.min.js"></script>
+
+  
+
+
+    <!-- Custom JS -->
+    <script src="scripts/angular.min.js"></script>
+  
+    <script src="scripts/angular-ui/angular-ui-router.js"></script>
+   
+    <script src="scripts/angular-local-storage.js"></script>
+    <script src="scripts/angular-resource.min.js"></script>
+    <script src="scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/helperService.js"></script>
+    <script src="js/sisyphus.min.js"></script>
+    <script src="js/quizCtrl.js"></script>
+    
+  <!-- Bootstrap Core JavaScript -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="MathJax/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+</head>
+<body>
+
+<div  class="container-fluid" >
+ 
+  <div ui-view>
+        
+            </div>
+      
+
+</div>
+
+  <script>
+
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+
+
+function isNumber(evt) {
+    evt = (evt) ? evt : window.event;
+    var charCode = (evt.which) ? evt.which : evt.keyCode;
+    if ( charCode > 57) {
+        return false;
+    }
+    return true;
+}
+
+
+function Expand(obj){
+    alert("Hello");
+      if (!obj.savesize) obj.savesize=obj.size;
+      obj.size=Math.max(obj.savesize,obj.value.length);
+     }
+
+ function expand(obj){
+    
+
+    obj.style.width = ((obj.value.length + 8) * 8) + 'px';
+ }    
+</script>       
+
+</body>
+</html>

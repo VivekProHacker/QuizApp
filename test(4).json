@@ -1,0 +1,141 @@
+{
+   "_id": "JREOIPF-raj",
+   "_rev": "6-7ccfa6ceeedbd0095ee826722b2d7aad",
+   "meta": {
+       "author": "ambarj",
+       "endTime": "05-07-2016 23:59:00",
+       "quizid": "JREOIPF",
+       "userid": "raj",
+       "beginTime": "04-07-2016 00:00:00",
+       "exitAllowed": false
+   },
+   "pass": "&nYksUT!31",
+   "attempted": false,
+   "answers": [
+       {
+           "000fn": 3
+       },
+       {
+           "0004c": 1
+       },
+       {
+           "000a5": "List[List[\"text\", \"rel\", \"\\:092a\\:0941\\:0924\\:0932\\:0940\\:092c\\:093e\\:0908\"]]"
+       },
+       {
+           "000f9": "List[List[\"number\", \"distance\", 216], List[\"number\", \"fibo\", List[13, 21, 34]], List[\"number\", \"time\", range[46, 47]], List[\"text\", \"formula\", \"CH3CH2OH\"]]"
+       },
+       {
+           "000cl": 2
+       }
+   ],
+   "quizdata": {
+       "quiztitle": "Another Test Quiz",
+       "instruction": "Verify all questions.",
+       "elements": [
+           {
+               "type": "mcq",
+               "object": {
+                   "question": "स्वतंत्रता संग्राम के प्रसिद्ध लाल-बाल-पाल में से लाल का पूरा नाम क्या है?",
+                   "options": [
+                       {
+                           "Id": 1,
+                           "statement": "लाल नारायण पाण्डेय "
+                       },
+                       {
+                           "Id": 2,
+                           "statement": "लालू प्रसाद यादव "
+                       },
+                       {
+                           "Id": 3,
+                           "statement": "लाला लाजपत राय "
+                       },
+                       {
+                           "Id": 4,
+                           "statement": "लाल बहादुर शास्त्री"
+                       }
+                   ],
+                   "hint": "No hint available.",
+                   "explanation": "No explanation available."
+               },
+               "ref": "000fn"
+           },
+           {
+               "type": "mcq",
+               "object": {
+                   "question": "Estimate the diameter of a nucleus with \n<math><mn>111</mn></math>\n nucleons in femtometer.",
+                   "options": [
+                       {
+                           "Id": 1,
+                           "statement": "<math><mtext>10.3</mtext></math>\n fm"
+                       },
+                       {
+                           "Id": 2,
+                           "statement": "<math><mtext>25.7</mtext></math>\n fm"
+                       },
+                       {
+                           "Id": 3,
+                           "statement": "<math><mtext>20.6</mtext></math>\n fm"
+                       },
+                       {
+                           "Id": 4,
+                           "statement": "<math><mtext>2.6</mtext></math>\n fm"
+                       }
+                   ],
+                   "hint": "Each nucleon takes about 4 \n<math><msup><mi>fm</mi><mn>3</mn></msup></math>\n of volume.",
+                   "explanation": "Radius of the nucleus is given by \n<math><mrow><mi>R</mi><mo>=</mo><mrow><msub><mi>R</mi><mn>0</mn></msub><mo>&#8290;</mo><msup><mi>A</mi><mrow><mn>1</mn><mo>/</mo><mn>3</mn></mrow></msup></mrow></mrow></math>\n, where \n<math><mrow><msub><mi>R</mi><mn>0</mn></msub><mo>=</mo><mn>1.07</mn></mrow></math>\n fm. Diameter is twice the radius."
+               },
+               "ref": "0004c"
+           },
+           {
+               "ref": "000f0",
+               "type": "fillIn",
+               "object": {
+                   "question": "Fill in the blank and click lock.",
+                   "statement": "'<div id=\"divFillInBlank\">(a) A car travelling at speed \n<math><mn>18</mn></math>\n m/s will travel a distance of <input id=\"inputBlankNumber\" type=\"number\"  name=\"distance\" value=\"\" ng-model=\"questions[currentPage-1].object.distance\" onkeypress=\"expand(this);return isNumber(event);\"> meters in \n<math><mn>12</mn></math>\n seconds.\n<br><br>\n(b) <input id=\"inputBlankNumber\" type=\"number\"  name=\"fibo\" value=\"\" ng-model=\"questions[currentPage-1].object.fibo\" onkeypress=\"expand(this);return isNumber(event);\"> is a fibonacci number between 10 and 50.\n<br><br>\n(c) A biker rides at a speed of \n<math><mn>13</mn></math>\n km/hr travelling a distance of \n<math><mn>10</mn></math>\n km. Time taken by the biker to cover the distance is <input id=\"inputBlankNumber\" type=\"number\"  name=\"time\" value=\"\" ng-model=\"questions[currentPage-1].object.time\" onkeypress=\"expand(this);return isNumber(event);\"> minutes\n<br><br>\n(d) Chemical formula of ethyl alcohol is <input id=\"inputBlankText\" type=\"text\" name=\"formula\" value=\"\" ng-model=\"questions[currentPage-1].object.formula\" onkeypress=\"expand(this)\">.</div>'",
+                   "hint": "Test hint",
+                   "explanation": "test explaination",
+                   "suggestion": "To enter a chemical formula like \n<math><mrow><msub><mtext>A</mtext><mn>2</mn></msub><msub><mtext>BxCy</mtext><mn>3</mn></msub></mrow></math>\n enter A2BxCy3 ."
+               }
+           },
+
+           {
+               "type": "mcq",
+               "object": {
+                   "question": "Estimate the diameter of a nucleus with \n<math><mn>111</mn></math>\n nucleons in femtometer.",
+                   "options": [
+                       {
+                           "Id": 1,
+                           "statement": "<math><mtext>10.3</mtext></math>\n fm"
+                       },
+                       {
+                           "Id": 2,
+                           "statement": "<math><mtext>25.7</mtext></math>\n fm"
+                       },
+                       {
+                           "Id": 3,
+                           "statement": "<math><mtext>20.6</mtext></math>\n fm"
+                       },
+                       {
+                           "Id": 4,
+                           "statement": "<math><mtext>2.6</mtext></math>\n fm"
+                       }
+                   ],
+                   "hint": "Each nucleon takes about 4 \n<math><msup><mi>fm</mi><mn>3</mn></msup></math>\n of volume.",
+                   "explanation": "Radius of the nucleus is given by \n<math><mrow><mi>R</mi><mo>=</mo><mrow><msub><mi>R</mi><mn>0</mn></msub><mo>&#8290;</mo><msup><mi>A</mi><mrow><mn>1</mn><mo>/</mo><mn>3</mn></mrow></msup></mrow></mrow></math>\n, where \n<math><mrow><msub><mi>R</mi><mn>0</mn></msub><mo>=</mo><mn>1.07</mn></mrow></math>\n fm. Diameter is twice the radius."
+               },
+               "ref": "0004c"
+           },
+           {
+               "ref": "000a5",
+               "type": "fillIn",
+               "object": {
+                   "question": "रिक्त स्थान भर के ताला लगाएँ।",
+                   "statement": "'<div id=\"divFillInBlank\">महात्मा गांधी \n<math><mtext>&#2325;&#2368; &#2350;&#2366;&#2340;&#2366;</mtext></math>\n का नाम <input id=\"inputBlankText\" type=\"text\" name=\"rel\" value=\"\" ng-model=\"questions[currentPage-1].object.rel\" onkeypress=\"expand(this)\"> है।</div>'",
+                   "hint": "",
+                   "explanation": "",
+                   "suggestion": "एक शब्द से रिक्त स्थान भरें।"
+               }
+           }
+       ]
+   }
+}
